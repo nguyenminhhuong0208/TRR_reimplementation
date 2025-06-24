@@ -1,0 +1,729 @@
+prediction_date,crash_prediction,full_response
+2025-02-05T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Dựa trên đồ thị tri thức được cung cấp, đặc biệt là các dữ liệu vào ngày 2025-02-04:
+1.  **Tác động tiêu cực từ yếu tố vĩ mô và toàn cầu:**
+    *   `suy thoái kinh tế toàn cầu` -> NEGATIVE TO -> `thị trường chứng khoán việt nam`
+    *   `xung đột địa chính trị` -> NEGATIVE TO -> `thị trường chứng khoán việt nam`
+    *   `thị trường chứng khoán toàn cầu` -> NEGATIVE TO -> `thị trường chứng khoán việt nam`
+    *   `thị trường tài chính toàn cầu` -> NEGATIVE TO -> `thị trường chứng khoán việt nam` (dữ liệu ngày 2/2 nhưng vẫn có thể ảnh hưởng)
+    Các yếu tố bên ngoài này tạo áp lực giảm giá lên toàn thị trường.
+
+2.  **Áp lực lãi suất và tài chính cá nhân:**
+    *   `Article_65` (ngày 4/2) đề cập đến các vấn đề `lãi suất`, `tỷ giá` ảnh hưởng tài chính cá nhân, có tác động POSITIVE TO `lãi suất` nhưng NEGATIVE TO `người tiêu dùng việt nam`, `người lao động việt nam` và một ngân hàng cụ thể (`ocb-ngân hàng`). Lãi suất tăng thường gây áp lực lên thị trường chứng khoán và sức mua của người tiêu dùng/nhà đầu tư cá nhân.
+
+3.  **Tác động tiêu cực lên các ngành trụ cột:**
+    *   Ngành Ngân hàng (`ngành ngân hàng việt nam`, `ngân hàng việt nam`) nhận nhiều tín hiệu NEGATIVE từ `ngân hàng trung ương`, `ngân hàng`, `thị trường chứng khoán` vào ngày 4/2. Mặc dù có tin POSITIVE từ `Article_65`, nhưng áp lực chung có vẻ tiêu cực. VCB thuộc ngành này.
+    *   Ngành Chứng khoán (`ngành chứng khoán việt nam`) cũng nhận tín hiệu NEGATIVE từ `doanh nghiệp việt nam`, `doanh nghiệp`, `ngân hàng`, `thị trường chứng khoán toàn cầu`, `thị trường tài chính việt nam` vào ngày 4/2. SSI thuộc ngành này.
+
+4.  **Tác động hỗn hợp lên các ngành khác:**
+    *   Mặc dù có nhiều tin tức tích cực về cải cách môi trường kinh doanh, đầu tư công, phát triển công nghiệp (đặc biệt là Bán dẫn, Công nghiệp, Xây dựng, Vật liệu - ảnh hưởng FPT, HPG, VCG, GVR) và Bất động sản (VHM), nhưng các yếu tố vĩ mô tiêu cực và áp lực lên ngành tài chính có thể lấn át trong ngắn hạn (ngày tiếp theo).
+    *   Ngành Bán lẻ (MWG) và Tiêu dùng (MSN - proxy qua `ngành sản xuất việt nam`) cũng đối mặt với áp lực từ lạm phát (`Article_64`, `Article_74` NEGATIVE TO `lạm phát`) và chi tiêu tiêu dùng (`Article_65` NEGATIVE TO `người tiêu dùng việt nam`).
+
+**Kết luận:** Mặc dù có các điểm sáng ở một số ngành công nghiệp và xây dựng, nhưng các yếu tố tiêu cực từ thị trường toàn cầu, áp lực lãi suất tiềm ẩn, và tín hiệu yếu đi từ các ngành tài chính (Ngân hàng, Chứng khoán) tạo ra rủi ro giảm giá mạnh trên diện rộng cho thị trường chứng khoán Việt Nam vào ngày tiếp theo, bao gồm cả danh mục cổ phiếu đã cho."
+2025-02-06T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-02-05:
+
+*   **Các yếu tố tích cực:** Có nhiều thông tin tích cực gần đây (ngày 04-05/02) hỗ trợ thị trường chung và các ngành trong danh mục:
+    *   Tin tức về tăng trưởng kinh tế, cải cách môi trường kinh doanh, thu hút đầu tư, đẩy mạnh dự án hạ tầng (cao tốc, điện) và công nghiệp (Article_10, 13, 14, 30, 35, 42, 45, 47, 49, 50, 64, 68, 72, 79, 83). Điều này có lợi cho VCB, HPG, GAS, GVR, VCG, FPT.
+    *   Thương mại điện tử và bán lẻ có dấu hiệu tích cực (Article_12, 48, 86, 89, 90), hỗ trợ MSN, MWG.
+    *   Các chính sách hỗ trợ doanh nghiệp và thị trường tài chính được đề cập (Article_49, 68, 76, 82). Điều này có lợi cho SSI, VCB.
+    *   Một số bài báo trực tiếp chỉ ra tác động tích cực đến ""thị trường chứng khoán việt nam"" (Article_10, Article_6, Article_83, Article_54).
+    *   Nhiều mối quan hệ trong đồ thị cho thấy sự liên kết tích cực giữa các ngành công nghiệp, sản xuất, xuất khẩu, ngân hàng, chứng khoán và các yếu tố vĩ mô như GDP, đầu tư.
+
+*   **Các yếu tố tiêu cực:** Vẫn tồn tại các yếu tố rủi ro:
+    *   Lạm phát và giá cả hàng hóa (đặc biệt là giá xăng dầu, thịt heo) vẫn là mối lo ngại, tác động tiêu cực đến người tiêu dùng và chi phí doanh nghiệp (Article_4, 8, 74, 76, 87, 90 và nhiều mối quan hệ trong KG). Điều này có thể ảnh hưởng đến MSN, MWG, HPG, VCG, GAS.
+    *   Vấn đề lãi suất cao và tỷ giá được đề cập (Article_32, 65), có thể ảnh hưởng tiêu cực đến chi phí vốn của doanh nghiệp và sức cầu (ảnh hưởng VHM, VCB, SSI).
+    *   Tin tức tiêu cực về an ninh thẻ tín dụng (Article_91) ảnh hưởng trực tiếp đến ngành ngân hàng (VCB) và tài chính (SSI) vào ngày gần nhất (05/02), làm giảm niềm tin.
+    *   Thị trường bất động sản (VHM) được dự báo khởi sắc *từ quý 2* (Article_6) và có tin giá nhà neo cao (Article_41), cho thấy có thể còn yếu trong ngắn hạn và ảnh hưởng tiêu cực đến người mua nhà.
+    *   Một số mối quan hệ trong đồ thị cho thấy tác động tiêu cực của lạm phát, lãi suất lên thị trường chứng khoán và các ngành cụ thể.
+
+**Kết luận:** Mặc dù có những thông tin tiêu cực và rủi ro tiềm ẩn (đặc biệt là lạm phát, lãi suất và sự cố ngành ngân hàng gần đây), các tin tức và mối quan hệ tích cực về tăng trưởng kinh tế, hoạt động công nghiệp, bán lẻ, đầu tư và các chính sách hỗ trợ nhìn chung chiếm ưu thế và có tác động trực tiếp đến thị trường chứng khoán. Các bài báo mới nhất (ngày 05/02) như Article_83 (""Doanh nghiệp Việt Nam vươn mình vào kỷ nguyên mới"") mang lại tâm lý lạc quan. Do đó, dựa *chỉ* trên đồ thị tri thức này, không đủ cơ sở để dự đoán một cú ""sập giá"" (crash) trên diện rộng của danh mục cổ phiếu đã cho vào ngày tiếp theo (2025-02-06). Thị trường có thể có biến động do các yếu tố trái chiều, nhưng một sự sụp đổ mạnh là ít có khả năng xảy ra."
+2025-02-07T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Dựa trên các thông tin từ đồ thị tri thức đến ngày 2025-02-06:
+1.  **Biến động tỷ giá và can thiệp NHNN (Article_103, 2025-02-06):** Thông tin này có tác động TIÊU CỰC (NEGATIVE TO) trực tiếp đến `thị trường chứng khoán việt nam`, `ngành bán lẻ việt nam`, `doanh nghiệp nhập khẩu việt nam` và `người tiêu dùng việt nam`. Điều này ảnh hưởng xấu đến tâm lý chung của thị trường và các cổ phiếu trong danh mục như VCB, SSI, MWG, MSN.
+2.  **Lừa đảo tài chính và an ninh mạng gia tăng (Article_117, 2025-02-06):** Sự kiện này có tác động TIÊU CỰC đến `ngành ngân hàng việt nam` (ảnh hưởng VCB), `ngành công nghệ việt nam` (ảnh hưởng FPT), `người tiêu dùng việt nam` và `thị trường tài chính việt nam`. Nó làm giảm niềm tin vào hệ thống tài chính và công nghệ.
+3.  **Rủi ro thuế quan đối với thép Việt Nam (Article_116, 2025-02-06):** Việc thép Việt Nam đối mặt nguy cơ bị áp thuế tại Thái Lan tác động TIÊU CỰC đến `ngành công nghiệp việt nam` và `ngành xuất khẩu việt nam`, ảnh hưởng trực tiếp đến HPG và gián tiếp đến các cổ phiếu công nghiệp khác như VCG, GVR.
+4.  **Căng thẳng thương mại Mỹ-Trung (Article_105, 2025-02-06):** Mặc dù có một số tác động tích cực (giá vàng, xuất/nhập khẩu VN), căng thẳng này nhìn chung gây tác động TIÊU CỰC đến `doanh nghiệp` nói chung, `ngành công nghiệp thế giới`, `ngành công nghiệp mỹ`, `ngành công nghiệp trung quốc`, tạo ra bất ổn kinh tế toàn cầu có thể lan sang Việt Nam.
+5.  **Tác động tiêu cực lên người tiêu dùng:** Nhiều yếu tố gần đây (tỷ giá, lừa đảo tài chính, giá vàng biến động - Article 104) đang tác động TIÊU CỰC đến `người tiêu dùng việt nam`, có thể làm giảm sức mua và ảnh hưởng đến các ngành như Bán lẻ (MWG), Tiêu dùng (MSN).
+
+Mặc dù có những tin tức tích cực về tăng trưởng kinh tế (Article_100) và FDI (Article_101), các yếu tố tiêu cực về biến động tỷ giá, rủi ro thương mại, an ninh tài chính và tác động lên các ngành chủ chốt (Ngân hàng, Công nghiệp, Bán lẻ, Công nghệ) xuất hiện gần nhất (ngày 2025-02-06) tạo ra một bức tranh rủi ro cao cho thị trường chứng khoán vào ngày tiếp theo, đủ để dự đoán khả năng ""sập giá"" của danh mục."
+2025-02-10T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Dựa trên đồ thị tri thức được cung cấp, có nhiều tín hiệu tiêu cực gần đây (ngày 08-09/02/2025) có thể tác động xấu đến danh mục cổ phiếu vào ngày tiếp theo. Cụ thể:
+*   **Rủi ro hệ thống tài chính:** Các cảnh báo về lừa đảo tài chính và an ninh mạng gia tăng (Article_117, Article_178) tác động tiêu cực trực tiếp đến ngành Ngân hàng (VCB), Chứng khoán (SSI), Công nghệ (FPT) và niềm tin của người tiêu dùng/nhà đầu tư nói chung, ảnh hưởng đến toàn thị trường (`thị trường tài chính việt nam`, `thị trường chứng khoán việt nam`).
+*   **Biến động tỷ giá:** Việc NHNN tăng tỷ giá trung tâm và biến động tỷ giá USD/NDT (Article_103) được ghi nhận là tiêu cực đến thị trường chứng khoán, doanh nghiệp nhập khẩu và người tiêu dùng, ảnh hưởng đến các mã Bán lẻ (MWG), Tiêu dùng (MSN) và tâm lý chung.
+*   **Rủi ro ngành cụ thể:** Ngành Thép (HPG) đối mặt nguy cơ thuế tại Thái Lan (Article_116), tác động tiêu cực đến ngành công nghiệp và xuất khẩu. Giá nhà neo cao (Article_41) và các vấn đề xã hội (Article_179) tác động tiêu cực đến Bất động sản (VHM).
+*   **Căng thẳng thương mại quốc tế:** Căng thẳng Mỹ-Trung leo thang (Article_105) tạo ra bất ổn cho các ngành công nghiệp và thương mại toàn cầu, có thể ảnh hưởng gián tiếp đến Việt Nam.
+*   **Lạm phát:** Mặc dù có tin tức tích cực về tăng trưởng GDP và giảm giá xăng dầu (Article_164), yếu tố lạm phát vẫn xuất hiện nhiều lần trong đồ thị với tác động tiêu cực đến nhiều ngành và người tiêu dùng. Giá cà phê và hồ tiêu tăng phi mã (Article_106) cũng gây áp lực lên chi phí và lạm phát.
+
+Mặc dù có các tin tức tích cực về tăng trưởng kinh tế, FDI (Article_176) và đầu tư công, các tín hiệu tiêu cực gần đây, đặc biệt là các rủi ro liên quan đến hệ thống tài chính, tỷ giá và các vấn đề ngành cụ thể, đủ mạnh để tạo ra tâm lý bi quan và có khả năng dẫn đến việc ""sập giá"" trên diện rộng trong ngày tiếp theo đối với danh mục đa dạng này."
+2025-02-11T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Dựa trên đồ thị tri thức được cung cấp, thông tin mới nhất vào ngày 2025-02-10 cho thấy nhiều tín hiệu tiêu cực có khả năng tác động đến danh mục vào ngày tiếp theo. Cụ thể:
+1.  **Article_199:** Tin tức về việc HPG (một cổ phiếu trong danh mục - ngành Vật liệu cơ bản/Thép) giảm sâu do tuyên bố của Tổng thống Trump có tác động TIÊU CỰC trực tiếp đến ""ngành công nghiệp việt nam"", ""ngành thép việt nam"", ""nhà đầu tư việt nam"" và quan trọng nhất là ""thị trường chứng khoán việt nam"". Đây là tín hiệu tiêu cực mạnh mẽ, trực tiếp ảnh hưởng đến một cổ phiếu lớn trong danh mục và tâm lý chung của thị trường.
+2.  **Article_186:** Sự cố trên cao tốc Bắc - Nam tác động TIÊU CỰC đến ngành xây dựng (ảnh hưởng VCG - Công nghiệp/Xây dựng) và ngành vật liệu xây dựng (có thể ảnh hưởng HPG).
+3.  **Các quan hệ KG ngày 2025-02-10:**
+    *   ""Thị trường chứng khoán Việt Nam"" có liên kết TIÊU CỰC đến ""ngân hàng việt nam"" (ảnh hưởng VCB - Ngân hàng).
+    *   ""Tỷ giá hối đoái"" có liên kết TIÊU CỰC đến ""thị trường chứng khoán việt nam"". Mặc dù có các liên kết tích cực khác trong quá khứ, liên kết tiêu cực vào ngày gần nhất là đáng chú ý.
+    *   ""Ngành thép việt nam"" (ngành của HPG) có liên kết TIÊU CỰC đến ""nhà đầu tư việt nam"".
+    *   ""Article_195"" cho thấy sự chậm tiến độ của các nhà máy điện, tác động TIÊU CỰC đến ngành điện (có thể ảnh hưởng GAS - Dịch vụ Hạ tầng/Năng lượng) và doanh nghiệp nói chung.
+4.  **Các yếu tố tiêu cực khác gần đây:**
+    *   ""Article_117"" (ngày 2025-02-06) và ""Article_178"" (ngày 2025-02-09) cảnh báo về lừa đảo tài chính gia tăng, tác động TIÊU CỰC đến ngành ngân hàng (VCB), công nghệ (FPT?), và thị trường tài chính nói chung (SSI).
+    *   ""Article_116"" (ngày 2025-02-06) đề cập nguy cơ thuế thép tại Thái Lan, ảnh hưởng tiêu cực đến ngành thép (HPG) và xuất khẩu.
+
+Mặc dù có một số tin tức và quan hệ tích cực (như tăng trưởng FDI, xuất khẩu, GDP, tín hiệu tích cực cho MWG, GAS, SSI từ một số nguồn khác, giá xăng dầu giảm), nhưng các tín hiệu tiêu cực mạnh mẽ, đặc biệt là cú sốc tâm lý từ Article_199 ảnh hưởng trực tiếp đến thị trường chứng khoán và nhà đầu tư vào ngày gần nhất (2025-02-10), cùng với các vấn đề trong ngành xây dựng, ngân hàng và lo ngại về tỷ giá, cho thấy khả năng cao danh mục sẽ chịu áp lực giảm giá mạnh (""sập giá"") vào ngày 2025-02-11."
+2025-02-12T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều thông tin tích cực về tăng trưởng GDP, FDI và xuất khẩu trong dài hạn được ghi nhận trong đồ thị tri thức (ví dụ: Article_10, Article_100, Article_101, Article_215, Article_217), các yếu tố tiêu cực gần đây có khả năng tác động mạnh hơn đến thị trường trong ngày tiếp theo (2025-02-12). Cụ thể:
+1.  **Tác động tiêu cực trực tiếp đến cổ phiếu lớn (HPG):** Article_199 (ngày 2025-02-10) ghi nhận HPG giảm sâu sau tuyên bố của Tổng thống Trump, tác động tiêu cực đến ngành thép và thị trường chứng khoán nói chung. HPG là một cổ phiếu quan trọng trong danh mục.
+2.  **Lo ngại về lạm phát:** Nhiều tin tức tích cực về tăng trưởng GDP và tín dụng (Article_215, Article_217) đi kèm với cảnh báo về lạm phát gia tăng (NEGATIVE TO lạm phát việt nam). Lạm phát thường tác động tiêu cực đến thị trường chứng khoán.
+3.  **Biến động tỷ giá và rủi ro tài chính:** Article_103 (ngày 2025-02-06) cho thấy biến động tỷ giá và NHNN tăng tỷ giá trung tâm, tác động tiêu cực đến doanh nghiệp nhập khẩu, người tiêu dùng và thị trường chứng khoán. Các cảnh báo về lừa đảo tài chính và an ninh mạng gia tăng (Article_117, Article_178) cũng làm giảm niềm tin.
+4.  **Vấn đề về chất lượng hạ tầng:** Article_186 (ngày 2025-02-10) báo cáo sự cố trên cao tốc Bắc - Nam, ảnh hưởng tiêu cực đến ngành xây dựng (VCG) và vật liệu xây dựng (HPG).
+5.  **Tín hiệu tiêu cực từ các tuple gần nhất:** Một số tuple ngày 2025-02-11 cho thấy tín hiệu không khả quan, ví dụ: (Doanh nghiệp bán lẻ Việt Nam, NEGATIVE TO, thị trường chứng khoán việt nam).
+
+Mặc dù có các yếu tố tích cực như giá xăng dầu giảm (Article_164) và tăng trưởng tín dụng, nhưng các tin tức tiêu cực cụ thể và những lo ngại vĩ mô gần đây (lạm phát, tỷ giá, an ninh tài chính, sự cố hạ tầng, tác động đến HPG) có khả năng gây áp lực giảm giá lên danh mục cổ phiếu trong ngày giao dịch tiếp theo."
+2025-02-13T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-02-12, có nhiều yếu tố tích cực và tiêu cực đan xen ảnh hưởng đến danh mục cổ phiếu.
+
+**Yếu tố tích cực:**
+1.  **Triển vọng kinh tế vĩ mô:** Nhiều bài báo và sự kiện gần đây (Art_100, Art_215) nhấn mạnh mục tiêu tăng trưởng GDP cao (8%, >500 tỷ USD) cho năm 2025, cho thấy niềm tin vào sự phục hồi và phát triển kinh tế. Điều này tác động tích cực đến hầu hết các ngành, bao gồm Công nghiệp (HPG, GVR, VCG), Ngân hàng (VCB), Bất động sản (VHM), Bán lẻ (MWG), Công nghệ (FPT).
+2.  **Thu hút FDI và Xuất khẩu:** Dữ liệu tháng 1/2025 (Art_101, Art_176) cho thấy FDI và xuất nhập khẩu tăng trưởng, hỗ trợ tích cực cho các ngành Công nghiệp (HPG, GVR, VCG), Xuất khẩu (ảnh hưởng gián tiếp đến nhiều ngành sản xuất như HPG, GVR, MSN), và Bất động sản (VHM).
+3.  **Tăng trưởng tín dụng:** Mục tiêu tăng trưởng tín dụng 16% (Art_217) nhằm thúc đẩy GDP, tạo điều kiện thuận lợi cho các doanh nghiệp vay vốn, đặc biệt là Ngân hàng (VCB), Công nghiệp (HPG, GVR, VCG), và có thể cả Bất động sản (VHM), Chứng khoán (SSI).
+4.  **Tin tức ngành cụ thể:** Có tin tức tích cực gần đây cho ngành Bất động sản (Art_225 - quy hoạch KCN, sắp xếp bộ máy) và ngành Thép (Art_239 - HPG được đề nghị sản xuất thép chất lượng cao, cổ phiếu hồi phục), trực tiếp hỗ trợ VHM và HPG. Ngành Công nghệ (FPT) cũng hưởng lợi từ các đề xuất chính sách (Art_228, Art_231). Giá xăng dầu giảm (Art_164) cũng là yếu tố hỗ trợ cho ngành Vận tải (liên quan VCG) và giảm chi phí cho nhiều ngành khác, cũng như người tiêu dùng (tích cực cho MWG, MSN).
+
+**Yếu tố tiêu cực:**
+1.  **Lạm phát:** Mối lo ngại về lạm phát được đề cập trong nhiều sự kiện gần đây (Art_100, Art_215, Art_217) như một hệ quả của chính sách thúc đẩy tăng trưởng. Lạm phát có nhiều liên kết tiêu cực đến thị trường chứng khoán, ngành ngân hàng, bán lẻ và sức mua của người tiêu dùng trong đồ thị tri thức.
+2.  **Biến động tỷ giá:** Bài báo Art_103 (ngày 06/02) cho thấy tỷ giá biến động và NHNN phải can thiệp, điều này có thể gây bất ổn và tác động tiêu cực đến thị trường chứng khoán và các doanh nghiệp nhập khẩu.
+3.  **Rủi ro ngành thép và xây dựng:** HPG đối mặt nguy cơ thuế tại Thái Lan (Art_116), và ngành xây dựng gặp vấn đề về chất lượng công trình cao tốc (Art_186). Mặc dù có tin tức hồi phục cho HPG (Art_239), nhưng rủi ro vẫn còn.
+4.  **Cảnh báo lừa đảo tài chính:** Các cảnh báo về lừa đảo tài chính và an ninh mạng gia tăng (Art_117, Art_178) có thể làm giảm niềm tin vào hệ thống tài chính, ảnh hưởng tiêu cực đến ngành Ngân hàng (VCB) và Chứng khoán (SSI).
+5.  **Căng thẳng thương mại Mỹ-Trung:** Sự leo thang căng thẳng (Art_105) có thể tác động tiêu cực đến kinh tế toàn cầu và Việt Nam, ảnh hưởng đến các ngành công nghiệp và xuất khẩu.
+
+**Tổng kết:** Mặc dù có những rủi ro đáng kể (lạm phát, tỷ giá, căng thẳng thương mại, vấn đề ngành cụ thể), các yếu tố tích cực về tăng trưởng kinh tế, FDI, tín dụng và các tin tức hỗ trợ ngành cụ thể (BĐS, Thép, Công nghệ) gần đây có vẻ chiếm ưu thế hơn trong việc định hình tâm lý thị trường *cho ngày tiếp theo*. Đặc biệt, sự hồi phục của HPG (Art_239) sau tin tức tiêu cực trước đó (Art_199) cho thấy khả năng phục hồi của thị trường. Do đó, một cú ""sập giá"" trên diện rộng của toàn bộ danh mục vào ngày mai là khó xảy ra dựa trên thông tin hiện có trong đồ thị."
+2025-02-14T01:00:00+07:00,Yes,"Crash: Yes
+Explanation:
+Dựa trên các thông tin từ đồ thị tri thức đến ngày 2025-02-13, có một số yếu tố tiêu cực đáng kể có thể ảnh hưởng đến danh mục vào ngày tiếp theo (2025-02-14):
+
+1.  **Áp lực lên thị trường chung và ngành thép (HPG):**
+    *   Article_259 (2025-02-13) chỉ ra khối ngoại bán ròng và áp lực từ chính sách Mỹ, tác động tiêu cực đến `ngành công nghiệp việt nam`, `ngành thép việt nam`, và `thị trường chứng khoán việt nam`. Điều này ảnh hưởng trực tiếp đến HPG và có khả năng lan tỏa ra thị trường chung.
+    *   Article_245 (2025-02-13) cho thấy Malaysia điều tra chống bán phá giá tôn Việt Nam, tác động tiêu cực đến `ngành thép việt nam` và `doanh nghiệp xuất khẩu việt nam` (bao gồm HPG).
+    *   Article_199 (2025-02-10) cũng đề cập HPG giảm sâu sau tuyên bố của Tổng thống Trump, tác động tiêu cực đến `ngành thép việt nam` và `thị trường chứng khoán việt nam`. Mặc dù có tin tức tích cực về HPG vào ngày 12 (Article_239), các tin tức tiêu cực mới hơn vào ngày 13 có vẻ chiếm ưu thế.
+
+2.  **Tâm lý thị trường chung:**
+    *   Article_252 (2025-02-13) đề cập đến việc chứng khoán Mỹ suy yếu, thường có tác động tâm lý tiêu cực đến thị trường Việt Nam.
+    *   Việc khối ngoại bán ròng (Article_259) cũng là một tín hiệu tiêu cực mạnh cho thị trường.
+
+3.  **Các yếu tố tiêu cực khác:**
+    *   Article_245 (2025-02-13) ghi nhận giá xăng dầu tăng, tác động tiêu cực đến `người tiêu dùng việt nam` và có thể ảnh hưởng đến chi phí của nhiều doanh nghiệp.
+    *   Article_250 (2025-02-13) cho thấy tỷ giá USD tăng, tác động tiêu cực đến `ngành nhập khẩu việt nam`, `người tiêu dùng việt nam` và có thể ảnh hưởng đến lạm phát và tâm lý thị trường chứng khoán.
+    *   Cảnh báo lừa đảo tài chính gia tăng (Article_178, 2025-02-09 và Article_244, 2025-02-13) có thể làm giảm niềm tin vào hệ thống tài chính, ngân hàng (VCB) và công nghệ (FPT).
+
+Mặc dù có những thông tin tích cực về tăng trưởng tín dụng (Article_217), mục tiêu GDP (Article_215), quy hoạch KCN (Article_225), và sự phục hồi của một số ngành như dầu khí (Article_190), bán lẻ (MWG), tiêu dùng (MSN/VNM), công nghệ (FPT), nhưng các yếu tố tiêu cực gần đây, đặc biệt là áp lực mạnh lên ngành thép (HPG) và tâm lý thị trường chung do khối ngoại bán ròng và ảnh hưởng từ thị trường Mỹ, tạo ra rủi ro cao về một đợt giảm giá mạnh (""sập giá"") cho danh mục vào ngày tiếp theo."
+2025-02-17T01:00:00+07:00,Yes,"```
+Crash: Yes
+Explanation: Dựa trên dữ liệu từ ngày 2025-02-16, có nhiều yếu tố tiêu cực ảnh hưởng đến các ngành chính trong danh mục:
+1.  **Tác động tiêu cực đến ngành Tài chính/Ngân hàng/Chứng khoán (VCB, SSI):**
+    *   (Doanh nghiệp Việt Nam, NEGATIVE TO, ngành tài chính việt nam)
+    *   (Ngân hàng Nhà nước Việt Nam, NEGATIVE TO, ngành tài chính việt nam)
+    *   (Thị trường chứng khoán thế giới, NEGATIVE TO, ngành chứng khoán)
+    *   (Nhà đầu tư vàng, NEGATIVE TO, ssi-chứng khoán)
+    *   (Thị trường chứng khoán mỹ, NEGATIVE TO, ssi-chứng khoán)
+    *   (Tỷ giá hối đoái Việt Nam, NEGATIVE TO, ngân hàng việt nam)
+2.  **Tác động tiêu cực đến ngành Bán lẻ/Tiêu dùng (MWG, MSN):**
+    *   (Chi tiêu, NEGATIVE TO, ngành bán lẻ)
+    *   (Người bán cà phê Việt Nam, NEGATIVE TO, ngành bán lẻ việt nam)
+    *   (Ngành vận tải việt nam, NEGATIVE TO, ngành bán lẻ)
+    *   (Nông dân trồng cà phê việt nam, NEGATIVE TO, doanh nghiệp bán lẻ việt nam)
+    *   (Nông dân trồng lúa, NEGATIVE TO, ngành bán lẻ)
+    *   (Doanh thu, NEGATIVE TO, doanh nghiệp bán lẻ)
+3.  **Tác động tiêu cực đến ngành Công nghiệp/Sản xuất/Vật liệu (HPG, GVR, VCG):**
+    *   (Người tiêu dùng Việt Nam, NEGATIVE TO, ngành sản xuất việt nam)
+    *   (chi phí sản xuất, NEGATIVE TO, doanh nghiệp sản xuất việt nam)
+    *   (Ngành vận tải thế giới, NEGATIVE TO, ngành công nghiệp)
+    *   (Ngành bán lẻ, NEGATIVE TO, doanh nghiệp sản xuất)
+    *   (Đầu tư công, NEGATIVE TO, ngành vật liệu xây dựng việt nam) - Ảnh hưởng HPG.
+    *   (Lạm phát mỹ, NEGATIVE TO, ngành thép việt nam) - Ảnh hưởng HPG.
+    *   (Ngành công nghiệp thế giới, NEGATIVE TO, doanh nghiệp thép việt nam) - Ảnh hưởng HPG.
+    *   (Ngành công nghiệp trung quốc, NEGATIVE TO, ngành thép việt nam) - Ảnh hưởng HPG.
+4.  **Tác động tiêu cực đến ngành Công nghệ (FPT):**
+    *   (Người lao động, NEGATIVE TO, ngành công nghệ)
+    *   (Ngành vận tải, NEGATIVE TO, ngành công nghệ)
+    *   (Ngành chứng khoán, NEGATIVE TO, ngành công nghệ)
+    *   (Ngành tài chính, NEGATIVE TO, ngành công nghệ)
+    *   (Doanh nghiệp thương mại điện tử việt nam, NEGATIVE TO, ngành công nghệ việt nam)
+    *   (Môi trường, NEGATIVE TO, ngành công nghệ)
+5.  **Tác động tiêu cực chung:**
+    *   (Chi tiêu, NEGATIVE TO, doanh nghiệp)
+    *   (Người tiêu dùng Việt Nam, NEGATIVE TO, doanh nghiệp việt nam)
+    *   (Doanh thu, NEGATIVE TO, doanh nghiệp)
+    *   (Doanh nghiệp thương mại điện tử việt nam, NEGATIVE TO, doanh nghiệp việt nam)
+    *   (Lợi nhuận doanh nghiệp, NEGATIVE TO, doanh nghiệp việt nam)
+
+Mặc dù có một số tin tức tích cực về GDP, đầu tư công và hoạt động ngân hàng (phát hành trái phiếu), nhưng số lượng và mức độ ảnh hưởng trực tiếp của các yếu tố tiêu cực lên các ngành cốt lõi trong danh mục (Tài chính, Bán lẻ, Công nghiệp, Công nghệ, Thép) vào ngày gần nhất (16/02) là rất đáng kể. Đặc biệt, các yếu tố như giảm chi tiêu, áp lực lên lợi nhuận, tác động tiêu cực từ thị trường toàn cầu và các vấn đề ngành cụ thể (thép, thương mại điện tử) tạo ra một bức tranh tổng thể bi quan cho ngày giao dịch tiếp theo. Do đó, dự đoán danh mục có khả năng ""sập giá"".
+```"
+2025-02-18T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-02-17, các yếu tố tích cực dường như chiếm ưu thế hơn các yếu tố tiêu cực cho ngày giao dịch tiếp theo (2025-02-18). Các tin tức gần đây nhấn mạnh mục tiêu tăng trưởng GDP cao (Article_324, Article_215), dòng vốn FDI mạnh mẽ (Article_325, Article_291), và tăng trưởng xuất khẩu (Article_331, Article_101), tạo tâm lý tích cực cho thị trường chứng khoán nói chung (SSI, VCB) và các ngành công nghiệp (HPG, GVR), xây dựng (VCG), bất động sản (VHM), công nghệ (FPT). Các dự án hạ tầng và năng lượng (Article_326) cũng hỗ trợ VCG, GAS. Mặc dù có những lo ngại về lạm phát (Article_324, Article_217), biến động tỷ giá (Article_103), giá cà phê tăng ảnh hưởng tiêu dùng/bán lẻ (Article_329, MWG), đề xuất thuế mới (Article_334), và các vấn đề riêng lẻ trước đó (áp lực lên HPG - Article_199, Article_116; lừa đảo tài chính - Article_178), nhưng các tin tức vĩ mô tích cực gần nhất (đặc biệt là ngày 17/02) cho thấy một bức tranh tổng thể lạc quan hơn, không đủ để gây ra một cú ""sập giá"" trên diện rộng cho danh mục đa dạng này vào ngày kế tiếp."
+2025-02-19T01:00:00+07:00,No,"**Explanation:**
+
+1.  **Phân tích Tổng quan:** Đồ thị tri thức cung cấp thông tin đến ngày 2025-02-18. Để dự đoán cho ngày tiếp theo (2025-02-19), cần phân tích các tác động tích cực và tiêu cực gần nhất lên các ngành và yếu tố liên quan đến danh mục cổ phiếu.
+
+2.  **Phân tích Tác động theo Ngành/Cổ phiếu:**
+    *   **Công nghệ (FPT):** Có tin tức tiêu cực gần đây (Article_343 - mua bán thông tin cá nhân) nhưng cũng có các yếu tố hỗ trợ chính sách (Article_228, 231). Tác động hỗn hợp, không quá tiêu cực.
+    *   **Chứng khoán (SSI):** Thị trường chứng khoán Việt Nam (`thị trường chứng khoán việt nam`) chịu áp lực tiêu cực từ khối ngoại bán ròng và chính sách Mỹ (Article_259 - 13/2), chứng khoán Mỹ suy yếu (Article_252 - 13/2). Tuy nhiên, có các yếu tố vĩ mô hỗ trợ như mục tiêu tăng trưởng tín dụng (Article_217), mục tiêu phát triển công nghiệp (Article_283), dòng vốn FDI (Article_291). Tác động hỗn hợp, hơi tiêu cực gần đây.
+    *   **Ngân hàng (VCB):** Tin tức tiêu cực về an ninh mạng, lừa đảo (Article_343 - 18/2, Article_117 - 6/2). Tuy nhiên, có nhiều tin tích cực về tăng trưởng tín dụng (Article_217), dòng tiền gửi tăng (Article_286), lãi suất huy động tăng (có lợi cho biên lợi nhuận - Article_288), cho vay mua nhà (Article_282), luật hóa NQ42 (xử lý nợ xấu - Article_250). Tác động hỗn hợp, tin tiêu cực gần nhất (18/2) nhưng nhiều tin tích cực nền tảng.
+    *   **Bất động sản (VHM):** Nhiều tin tức tích cực gần đây về nguồn cung BĐS công nghiệp (Article_261), dòng vốn FDI (Article_291), cho vay mua nhà (Article_282), quy hoạch KCN (Article_225). Các lo ngại về giá cao, khả năng chi trả (Article_41) đã cũ hơn. Xu hướng nghiêng về tích cực.
+    *   **Vật liệu cơ bản/Thép (HPG):** Chịu tác động tiêu cực mạnh từ tuyên bố của Trump (Article_199 - 10/2), áp lực chính sách Mỹ, khối ngoại bán ròng (Article_259 - 13/2), nguy cơ thuế chống bán phá giá tại Malaysia (Article_245 - 13/2), Thái Lan (Article_116 - 6/2). Tin tích cực về đề nghị sản xuất thép chất lượng cao (Article_239 - 12/2) khó bù đắp được các yếu tố tiêu cực lớn. Xu hướng rất tiêu cực.
+    *   **Dịch vụ Hạ tầng/Dầu khí (GAS):** Tăng trưởng ngành tốt (Article_190 - 10/2). Tuy nhiên, giá dầu thế giới và giá xăng dầu trong nước có biến động trái chiều và không nhất quán trong các báo cáo gần đây (Article_281, 245, 164, 149, 74). Khó xác định rõ xu hướng, có thể coi là trung tính đến hơi tích cực do tăng trưởng ngành.
+    *   **Tiêu dùng cơ bản (MSN):** Người tiêu dùng (`người tiêu dùng việt nam`) đối mặt nhiều áp lực (giá xăng tăng - Article_245, tỷ giá tăng - Article_250, lừa đảo tài chính - Article_343, 178, khó khăn về thu nhập/chi phí sinh hoạt - Article_263) nhưng cũng có yếu tố hỗ trợ (lãi suất tiết kiệm tăng - Article_288, dòng tiền gửi tăng - Article_286, VNM tăng trưởng - Article_252). Tác động rất hỗn hợp, áp lực lên người tiêu dùng là rõ ràng.
+    *   **Bán lẻ (MWG):** Hưởng lợi từ giá xăng dầu giảm (Article_164), mục tiêu tăng trưởng GDP (Article_324), hàng Việt được ưa chuộng (Article_309). Tuy nhiên, chịu ảnh hưởng tiêu cực từ giá cà phê tăng (Article_345), tỷ giá tăng (Article_103). Có thông tin tích cực cụ thể cho nhóm MWG (Feb 10). Xu hướng hỗn hợp, hơi tích cực.
+    *   **Chế biến/Công nghiệp (GVR, VCG):** Ngành công nghiệp và xây dựng nhận được rất nhiều thông tin tích cực vĩ mô: mục tiêu GDP cao (Article_100, 215, 299, 324), FDI mạnh (Article_101, 291, 325), đầu tư công/dự án hạ tầng (Article_141, 186 - dù có vấn đề nhưng vẫn là động lực, 302), phát triển KCN (Article_225, 261), điện hạt nhân (Article_326, 358), xuất khẩu tăng (Article_101, 190, 331). Tin tiêu cực về sự cố cao tốc (Article_186) hay áp lực từ Mỹ lên HPG (Article_199) là cụ thể, không làm lu mờ bức tranh tích cực chung của ngành công nghiệp/xây dựng. Xu hướng rất tích cực.
+
+3.  **Tổng hợp và Đánh giá Nguy cơ ""Sập giá"":**
+    *   **Điểm tích cực:** Triển vọng vĩ mô (GDP, FDI, đầu tư công) rất tích cực, hỗ trợ mạnh cho nhóm Công nghiệp, Xây dựng, Bất động sản (VCG, GVR, VHM). Ngân hàng (VCB) có nhiều yếu tố hỗ trợ dù có rủi ro an ninh. Bán lẻ (MWG) và Công nghệ (FPT) có tín hiệu hỗn hợp nhưng không quá xấu.
+    *   **Điểm tiêu cực:** Ngành Thép (HPG) đối mặt rủi ro lớn từ bên ngoài. Thị trường chứng khoán chung (ảnh hưởng SSI) chịu áp lực bán ròng của khối ngoại và tâm lý từ thị trường Mỹ. Người tiêu dùng (ảnh hưởng MSN, MWG) đối mặt nhiều áp lực về chi phí sinh hoạt, lạm phát, tỷ giá. Rủi ro an ninh mạng ảnh hưởng Ngân hàng, Công nghệ.
+    *   **Kết luận:** Mặc dù có những yếu tố tiêu cực đáng kể, đặc biệt là với HPG và áp lực lên thị trường chứng khoán nói chung, nhưng các động lực tăng trưởng vĩ mô tích cực và sự hỗ trợ cho các ngành lớn khác trong danh mục (Công nghiệp, Xây dựng, BĐS) là rất mạnh mẽ. Một sự kiện ""sập giá"" (giảm RẤT MẠNH tới 5% trên TOÀN BỘ danh mục) đòi hỏi một cú sốc tiêu cực lan rộng hoặc một tin tức vĩ mô cực xấu. Dựa trên dữ liệu KG đến ngày 18/2, các yếu tố tích cực có vẻ đủ mạnh để đối trọng với các yếu tố tiêu cực, khiến cho một cú sập giá *toàn danh mục* vào ngày 19/2 là khó xảy ra. Có thể có sự phân hóa mạnh, HPG giảm sâu nhưng các mã khác có thể giữ giá hoặc tăng nhẹ nhờ tin tức hỗ trợ ngành.
+
+**Crash:** No"
+2025-02-20T01:00:00+07:00,Yes,"**Explanation:**
+
+1.  **Phân tích Tổng quan:** Đồ thị tri thức (KG) cung cấp thông tin đa chiều, bao gồm cả tín hiệu tích cực và tiêu cực cho các ngành và thực thể kinh tế khác nhau trong những ngày gần đây (01/02 - 18/02/2025). Để dự đoán khả năng ""sập giá"" (giảm mạnh tới 5%) của danh mục vào ngày 19/02, cần tổng hợp các tín hiệu tác động đến từng cổ phiếu/ngành trong danh mục, đặc biệt là các thông tin mới nhất (ngày 18/02).
+
+2.  **Phân tích theo Ngành/Cổ phiếu:**
+    *   **FPT (Công nghệ):** Ngành công nghệ (""ngành công nghệ việt nam"") nhận tín hiệu tiêu cực ngày 18/02 (Article_343 - rò rỉ thông tin) nhưng cũng có tín hiệu tích cực (Article_250 - tỷ giá). Các ngày trước đó có nhiều tín hiệu tích cực cho ngành công nghiệp nói chung. Tổng thể: Không quá tiêu cực.
+    *   **SSI (Chứng khoán):** Ngành chứng khoán (""ngành chứng khoán việt nam"", ""thị trường chứng khoán việt nam"", ""ssi-chứng khoán"") chịu tác động tiêu cực mạnh và gần đây: Article_199 (18/02 - HPG giảm/Trump), Article_259 (18/02 - Khối ngoại bán ròng/chính sách Mỹ), Article_103 (06/02 - Biến động tỷ giá). Mặc dù có các tín hiệu tích cực trước đó (FDI, mục tiêu tăng trưởng, tín dụng), các tin tức tiêu cực mới nhất có vẻ chiếm ưu thế và tác động trực tiếp đến tâm lý thị trường. Tổng thể: Rất tiêu cực.
+    *   **VCB (Ngân hàng):** Ngành ngân hàng (""ngành ngân hàng việt nam"", ""ngân hàng việt nam"") có tín hiệu tiêu cực ngày 18/02 (Article_343 - rò rỉ thông tin), 13/02 (Article_178 - lừa đảo), 06/02 (Article_103 - tỷ giá), 05/02 (Article_91 - thẻ tín dụng). Tín hiệu tích cực đến từ tăng trưởng tín dụng (Article_217), lãi suất tăng (Article_288), cho vay mua nhà (Article_282). Tổng thể: Tiêu cực nhẹ đến trung tính do các vấn đề an ninh mạng và biến động tỷ giá gần đây.
+    *   **VHM (Bất động sản):** Ngành bất động sản (""ngành bất động sản việt nam"", ""thị trường bất động sản"") nhận nhiều tín hiệu tích cực gần đây: Article_261 (18/02 - BĐS công nghiệp), Article_280, 282, 291 (17/02 - tài chính cá nhân, cho vay mua nhà, FDI), Article_225 (12/02 - quy hoạch KCN). Tín hiệu tiêu cực về giá nhà cao (Article_41) đã cũ hơn. Tổng thể: Tích cực.
+    *   **HPG (Vật liệu cơ bản/Thép):** Ngành thép (""ngành thép việt nam"", ""HPG"") chịu tác động tiêu cực rất mạnh và mới nhất: Article_199 (18/02 - HPG giảm/Trump), Article_259 (18/02 - áp lực chính sách Mỹ), Article_245 (13/02 - Malaysia điều tra chống bán phá giá). Tin tích cực ngày 12/02 (Article_239) về đề nghị sản xuất thép chất lượng cao và sự hồi phục *ngày hôm đó* bị lu mờ bởi các tin tức tiêu cực mới hơn. Tổng thể: Rất tiêu cực.
+    *   **GAS (Dịch vụ Hạ tầng/Dầu khí):** Ngành dầu khí (""ngành khai thác dầu khí việt nam"", ""giá dầu thế giới"") có tín hiệu tiêu cực về giá dầu thế giới (Article_281 - 18/02), giá xăng trong nước tăng (Article_245 - 13/02). Có tín hiệu tích cực về mục tiêu tăng trưởng (Article_190 - 17/02). Tổng thể: Tiêu cực nhẹ đến trung tính.
+    *   **MSN (Tiêu dùng cơ bản):** Liên quan đến ""người tiêu dùng việt nam"", ""giá cả hàng hóa"". Người tiêu dùng nhận tín hiệu tiêu cực gần đây (Article_343, 345, 250, 334 - rò rỉ thông tin, giá cà phê, tỷ giá, lương thấp, đề xuất thuế) và tích cực (Article_215, 279, 280, 282, 286, 288, 330 - mục tiêu GDP, cải cách môi trường KD, tài chính cá nhân, cho vay mua nhà, tiền gửi NH, lãi suất NH, thủy sản). Giá cả hàng hóa có biến động (cà phê, vàng, xăng dầu). Cổ phiếu VNM cùng ngành có tín hiệu tích cực (Article_252). Tổng thể: Khá cân bằng, khó xác định xu hướng rõ ràng cho ngành này chỉ từ KG.
+    *   **MWG (Bán lẻ):** Ngành bán lẻ (""ngành bán lẻ việt nam"", ""doanh nghiệp bán lẻ việt nam"", ""MWG-Bán lẻ"") có tín hiệu tiêu cực từ giá cà phê tăng (Article_345 - 18/02), tỷ giá (Article_103 - 06/02). Tuy nhiên, có nhiều tín hiệu tích cực hơn: mục tiêu GDP (Article_215, 324), thủy sản (Article_330), tăng trưởng TMĐT (Article_89), nhu cầu thịt heo (Article_90), giá giảm trước đó (Article_48), và tín hiệu tích cực riêng cho MWG (10/02). Tổng thể: Tích cực.
+    *   **GVR (Chế biến/Công nghiệp):** Xem xét như ""ngành công nghiệp việt nam"". Ngành này nhận rất nhiều tín hiệu tích cực (FDI, mục tiêu GDP, đầu tư công, tăng trưởng dầu khí/dệt may, điện hạt nhân, quan hệ Mỹ-Việt). Các tín hiệu tiêu cực gần đây (rò rỉ thông tin, HPG/Trump) có vẻ ít ảnh hưởng hơn đến bức tranh chung của ngành. Tổng thể: Tích cực.
+    *   **VCG (Công nghiệp/Xây dựng):** Ngành xây dựng (""ngành xây dựng việt nam"") có tín hiệu tích cực từ kế hoạch điện hạt nhân (Article_358, 326), đầu tư công (Article_302), hạ tầng (Article_141). Tín hiệu tiêu cực từ chất lượng cao tốc (Article_186) đã có. Tổng thể: Tích cực.
+
+3.  **Tổng hợp và Kết luận:**
+    *   Hai ngành quan trọng trong danh mục là Chứng khoán (SSI) và Thép (HPG) đang chịu áp lực tiêu cực rất mạnh từ các tin tức mới nhất (ngày 18/02) liên quan đến chính sách ngoại thương, khối ngoại bán ròng và tuyên bố chính trị.
+    *   Thực thể ""thị trường chứng khoán việt nam"" trong KG cũng ghi nhận các tác động tiêu cực mạnh mẽ này.
+    *   Ngành Ngân hàng (VCB) và Dầu khí (GAS) có tín hiệu trung tính đến tiêu cực nhẹ.
+    *   Mặc dù các ngành Bất động sản (VHM), Bán lẻ (MWG), Công nghiệp nói chung (FPT, GVR, VCG) có tín hiệu tích cực, sự suy yếu mạnh của các ngành trụ cột như Chứng khoán, Thép và tâm lý tiêu cực chung trên thị trường (phản ánh qua các tác động tiêu cực lên ""thị trường chứng khoán việt nam"") có khả năng lan tỏa.
+    *   Với định nghĩa ""sập giá"" là giảm RẤT MẠNH (lên tới 5%), sự kết hợp của các yếu tố tiêu cực mạnh mẽ và mới nhất lên các ngành trọng yếu và thị trường chung đủ để tạo ra một đợt bán tháo đáng kể trên toàn danh mục.
+
+**Explanation:** Mặc dù có nhiều tín hiệu tích cực cho các ngành như Bất động sản (VHM), Bán lẻ (MWG), Công nghiệp (FPT, GVR, VCG) liên quan đến FDI, mục tiêu tăng trưởng GDP, đầu tư công và các yếu tố ngành cụ thể, các tín hiệu tiêu cực rất mạnh và mới nhất (ngày 18/02) đang tác động lên các ngành trọng yếu khác trong danh mục và thị trường chung. Cụ thể:
+1.  **Ngành Chứng khoán (SSI):** Chịu áp lực bán ròng từ khối ngoại, tác động tiêu cực từ chính sách Mỹ và sự kiện liên quan đến HPG/Trump (Article_259, Article_199). Thực thể ""thị trường chứng khoán việt nam"" cũng ghi nhận các tác động tiêu cực này.
+2.  **Ngành Thép/Vật liệu cơ bản (HPG):** Chịu tác động tiêu cực trực tiếp từ tuyên bố của Trump, áp lực chính sách Mỹ và nguy cơ thuế chống bán phá giá từ Malaysia (Article_199, Article_259, Article_245).
+3.  **Ngành Ngân hàng (VCB):** Có rủi ro từ các vấn đề an ninh mạng và biến động tỷ giá gần đây (Article_343, Article_178, Article_103).
+4.  **Tâm lý thị trường chung:** Các sự kiện tiêu cực ảnh hưởng đến SSI, HPG và thực thể ""thị trường chứng khoán việt nam"" cho thấy tâm lý bi quan có thể đang hình thành.
+
+Sự kết hợp của các yếu tố tiêu cực mạnh mẽ này, đặc biệt là các tin tức mới nhất, có khả năng gây ra một đợt bán tháo đủ mạnh (lên tới 5%) trên danh mục vào ngày tiếp theo, bất chấp các tín hiệu tích cực ở một số ngành khác.
+**Crash:** Yes"
+2025-02-21T01:00:00+07:00,No,"
+  ""Explanation"": [
+    ""1.  **Phân tích các yếu tố vĩ mô và thị trường chung:**"",
+    ""    *   **Tích cực:**"",
+    ""        *   **Tăng trưởng GDP & Mục tiêu kinh tế:** Nhiều bài báo (Article_10, 35, 100, 134, 215, 283, 299, 324) nhấn mạnh mục tiêu tăng trưởng GDP cao (7-8%), kinh tế khởi sắc, và dự báo Việt Nam dẫn đầu tăng trưởng ASEAN. Điều này tạo tâm lý lạc quan chung."",
+    ""        *   **Thu hút FDI:** Dòng vốn FDI liên tục tăng mạnh (Article_14, 101, 291, 325), đặc biệt vào công nghiệp và bất động sản, là động lực quan trọng cho tăng trưởng và thị trường chứng khoán."",
+    ""        *   **Xuất khẩu:** Nhiều tin tức tích cực về xuất khẩu (Article_33, 101, 331, 387), đặc biệt sang Mỹ và CPTPP, dù có lo ngại về một số mặt hàng cụ thể (thép, trái cây)."",
+    ""        *   **Đầu tư công & Hạ tầng:** Chính phủ đẩy mạnh đầu tư công, phát triển hạ tầng (cao tốc, sân bay, cảng biển, đường sắt, dự án điện) (Article_13, 30, 64, 186 - dù có vấn đề, 248, 302, 384), tạo tác động lan tỏa tích cực đến nhiều ngành (Xây dựng, Vật liệu, Công nghiệp, Giao thông)."",
+    ""        *   **Môi trường kinh doanh:** Có các nỗ lực cải cách (Article_42, 279)."",
+    ""    *   **Tiêu cực:**"",
+    ""        *   **Lạm phát:** Mặc dù có tín hiệu kiềm chế (Article_309) và so sánh tốt hơn khu vực (Article_27), lạm phát vẫn là yếu tố rủi ro tiềm ẩn (Article_64, 74, 106, 215, 217, 263)."",
+    ""        *   **Tỷ giá hối đoái:** USD tăng giá (Article_103, 250) gây áp lực lên doanh nghiệp nhập khẩu và có thể ảnh hưởng dòng vốn ngoại."",
+    ""        *   **Áp lực từ chính sách Mỹ & Căng thẳng thương mại:** Tác động tiêu cực đến một số ngành (Thép - HPG) và tâm lý thị trường chung (Article_105, 259)."",
+    ""        *   **Khối ngoại bán ròng:** Áp lực bán từ nhà đầu tư nước ngoài (Article_259)."",
+    ""        *   **Rủi ro chính sách/pháp lý:** Đề xuất đánh thuế lãi tiết kiệm (Article_392), siết kiểm soát trái cây (Article_330), điều tra chống bán phá giá thép (Article_245), vấn đề kê khai thuế người bán hàng online (Article_363) tạo ra sự không chắc chắn."",
+    ""        *   **An ninh mạng & Lừa đảo tài chính:** Gia tăng (Article_91, 117, 178, 343), ảnh hưởng tiêu cực đến niềm tin vào ngành ngân hàng, công nghệ."",
+    ""        *   **Vấn đề xã hội:** Áp lực chi phí sinh hoạt, lương thấp (Article_263)."",
+    ""2.  **Phân tích tác động lên từng ngành/cổ phiếu trong danh mục:**"",
+    ""    *   **FPT (Công nghệ):** Hưởng lợi từ chính sách hỗ trợ (Article_228, 231), hợp tác quốc tế (Article_354). Tuy nhiên, có rủi ro từ vấn đề an ninh mạng chung (Article_343). => Nhìn chung Tích cực/Trung lập."",
+    ""    *   **SSI (Chứng khoán):** Chịu tác động trực tiếp từ diễn biến thị trường chung. Các yếu tố tiêu cực (bán ròng khối ngoại, chính sách Mỹ, đề xuất thuế lãi tiết kiệm) và tích cực (FDI, mục tiêu GDP, tăng trưởng tín dụng) đan xen. Rủi ro cao. => Tiêu cực/Rủi ro cao."",
+    ""    *   **VCB (Ngân hàng):** Tương tự SSI, chịu ảnh hưởng từ chính sách (thuế lãi tiết kiệm, tín dụng - Article_217, 263, 392), an ninh mạng (Article_343). Hưởng lợi từ dòng tiền gửi tăng (Article_286), hỗ trợ chuyển đổi xanh (Article_394). Có ngân hàng tiên phong cho vay mua nhà (ACB - Article_282), VietABank tăng lãi suất (Article_288). => Tiêu cực/Rủi ro cao."",
+    ""    *   **VHM (Bất động sản):** Hưởng lợi từ FDI (Article_291), chính sách hỗ trợ (Article_225), tín dụng (Article_263, 282), quy hoạch KCN (Article_225, 261). Giá nhà neo cao (Article_41) là yếu tố cản trở nhưng các động lực khác khá mạnh. => Tích cực/Trung lập."",
+    ""    *   **HPG (Vật liệu cơ bản - Thép):** Chịu áp lực rất lớn từ chính sách Mỹ (Article_199, 259), điều tra chống bán phá giá của Malaysia (Article_245). Tin tức tích cực về sản xuất thép chất lượng cao (Article_239) khó bù đắp rủi ro thương mại quốc tế. => Rất tiêu cực."",
+    ""    *   **GAS (Dịch vụ Hạ tầng - Dầu khí):** Giá dầu thế giới giảm (Article_281) là yếu tố tiêu cực. Tăng trưởng ngành (Article_190) là tích cực nhưng tin tức giá dầu gần hơn. => Tiêu cực."",
+    ""    *   **MSN (Tiêu dùng cơ bản):** Chịu ảnh hưởng từ áp lực lên người tiêu dùng (thuế, giá cả biến động - Article_329, 345, 392). Hàng Việt được ưa chuộng (Article_309) là tích cực. => Trung lập/Tiêu cực nhẹ."",
+    ""    *   **MWG (Bán lẻ):** Tương tự MSN, chịu áp lực từ chi phí kinh doanh online (Article_363), giá cả, tỷ giá. Hưởng lợi từ mục tiêu GDP, hàng Việt được ưa chuộng. => Trung lập/Tiêu cực nhẹ."",
+    ""    *   **GVR (Chế biến - Cao su):** Ít thông tin trực tiếp. Ngành công nghiệp chế biến nói chung có tín hiệu tiêu cực nhỏ (Article_387). => Trung lập/Không chắc chắn."",
+    ""    *   **VCG (Công nghiệp - Xây dựng):** Hưởng lợi mạnh từ đầu tư công, hạ tầng (cao tốc, cảng), FDI, mục tiêu tăng trưởng công nghiệp. Vấn đề chất lượng cao tốc (Article_186) là tiêu cực nhưng không làm lu mờ các yếu tố tích cực khác. => Tích cực."",
+    ""3.  **Tổng hợp và Kết luận:**"",
+    ""    *   Có những yếu tố rất tiêu cực tập trung vào một số mã/ngành cụ thể: HPG (Thép) do rủi ro thương mại quốc tế; SSI, VCB (Chứng khoán, Ngân hàng) do bất ổn chính sách (thuế) và áp lực bán ròng; GAS do giá dầu giảm."",
+    ""    *   Có những yếu tố tích cực mạnh mẽ mang tính vĩ mô và ngành: FDI, mục tiêu GDP, đầu tư công hỗ trợ VHM, VCG."",
+    ""    *   Các ngành Tiêu dùng, Bán lẻ (MSN, MWG) chịu áp lực nhưng không quá nghiêm trọng."",
+    ""    *   Công nghệ (FPT) và Chế biến (GVR) tương đối trung lập hoặc ít thông tin."",
+    ""    *   **Đánh giá khả năng \""Sập giá\"" (>5%):** Một cú sập giá mạnh đòi hỏi sự đồng thuận bán tháo trên diện rộng. Mặc dù có nhiều yếu tố rủi ro và áp lực bán lên các ngành trụ cột như Ngân hàng, Chứng khoán và đặc biệt là Thép, nhưng các yếu tố tích cực về vĩ mô (FDI, GDP) và sự vững chắc của các ngành khác như Bất động sản, Công nghiệp/Xây dựng có thể tạo lực đỡ. Các tin tức tiêu cực nhất (HPG, thuế) đã xuất hiện từ vài ngày trước (Feb 18, Feb 13, Feb 10), thị trường có thể đã phần nào hấp thụ. Tin tức ngày 20/2 không có cú sốc đặc biệt lớn theo chiều hướng tiêu cực. Do đó, khả năng *toàn bộ danh mục* giảm trên 5% vào ngày tiếp theo là không cao, mặc dù khả năng giảm điểm và phân hóa mạnh là có thể."",
+    ""    *   **Lý do chính chống lại việc sập giá:** Dòng vốn FDI mạnh mẽ, mục tiêu tăng trưởng GDP cao của chính phủ, các dự án đầu tư công tiếp tục được đẩy mạnh, sự ổn định tương đối của ngành Bất động sản và Công nghiệp/Xây dựng."",
+    ""    *   **Lý do chính ủng hộ việc sập giá (hoặc giảm mạnh):** Áp lực bán ròng khối ngoại, rủi ro thương mại quốc tế (đặc biệt với thép), bất ổn chính sách (thuế), giá dầu giảm, áp lực lên người tiêu dùng.""
+  ],
+  ""Crash"": ""No""
+"
+2025-02-24T01:00:00+07:00,No,"**Explanation:**
+
+1.  **Phân tích Tổng quan:** Đồ thị tri thức (KG) chứa nhiều thông tin tích cực và tiêu cực đan xen về kinh tế Việt Nam và các ngành liên quan đến danh mục cổ phiếu. Cần đánh giá tác động tổng hợp, đặc biệt là các thông tin gần nhất (ngày 2025-02-23).
+
+2.  **Tác động Tích cực Gần đây:**
+    *   **Thị trường Chứng khoán & Kinh tế Vĩ mô (Ngày 22/02 trở về trước):** Có nhiều tín hiệu lạc quan như dự báo VN-Index hướng tới 1300 (Article_421), kỳ vọng tăng trưởng lợi nhuận (Article_424), mục tiêu GDP cao (Article_100, Article_324), thu hút FDI mạnh (Article_101, Article_291, Article_325), chính sách hỗ trợ doanh nghiệp và môi trường kinh doanh (Article_42, Article_436). Điều này tạo tâm lý tích cực chung cho thị trường.
+    *   **Ngành Thép (HPG):** Có thông tin tích cực về việc HPG được đề nghị sản xuất thép chất lượng cao và cổ phiếu hồi phục (Article_239), kỳ vọng bùng nổ (Article_421). Mặc dù có cảnh báo về thuế ở Thái Lan (Article_116) và ảnh hưởng từ chính sách Mỹ (Article_259), nhưng thông tin tích cực gần hơn và cụ thể hơn.
+    *   **Bất động sản KCN (Liên quan VHM, GVR, VCG):** Dự báo đón sóng lớn năm 2025 (Article_458), nguồn cung tăng trưởng tốt (Article_261). Các dự án hạ tầng (sân bay Long Thành, cao tốc) cũng hỗ trợ gián tiếp (Article_13).
+    *   **Công nghiệp & Sản xuất (FPT, HPG, GVR, VCG):** Hưởng lợi từ FDI, phát triển KCN, mục tiêu tăng trưởng GDP. Ngành bán dẫn (liên quan FPT) có cơ hội (Article_427).
+    *   **Ngân hàng (VCB):** Tín dụng tăng trưởng (Article_217), hưởng lợi từ thị trường BĐS ấm lên (Article_6), chính sách hỗ trợ (Article_49). Tuy nhiên, có lo ngại về lừa đảo (Article_457) và biến động nhân sự (Article_250).
+    *   **Bán lẻ (MWG):** Giá cả hàng hóa Tết ổn định (Article_12), hàng Việt được ưa chuộng (Article_309), TMĐT bùng nổ (Article_89). Tuy nhiên, lạm phát và tỷ giá ảnh hưởng sức mua.
+
+3.  **Tác động Tiêu cực Gần đây:**
+    *   **Rủi ro Thuế quan Mỹ (Ngày 23/02 - Article_443):** Đây là thông tin tiêu cực *tiềm ẩn* mới nhất và có phạm vi ảnh hưởng rộng (công nghiệp, xuất nhập khẩu, vận tải, tiêu dùng, tỷ giá). Tuy nhiên, đây mới là kế hoạch (""chuẩn bị công bố"", ""có thể ảnh hưởng""), mức độ tác động ngay lập tức lên thị trường ngày hôm sau là không chắc chắn.
+    *   **Lừa đảo Tài chính/An ninh mạng (Ngày 23/02 - Article_457, Ngày 13/02 - Article_244):** Ảnh hưởng tiêu cực đến niềm tin vào ngành ngân hàng, công nghệ và người tiêu dùng.
+    *   **Tỷ giá USD tăng (Ngày 21/02 - Article_404, Ngày 13/02 - Article_250):** Gây áp lực lên lạm phát, doanh nghiệp nhập khẩu và người tiêu dùng.
+    *   **Lạm phát:** Mặc dù có các yếu tố kiềm chế (Article_309), lạm phát vẫn là mối lo tiềm ẩn được đề cập nhiều lần trong KG, ảnh hưởng tiêu cực đến nhiều ngành.
+    *   **Giá cà phê biến động mạnh:** Tăng phi mã (Article_329, Article_345) rồi lại giảm (Article_281, Article_289). Ảnh hưởng đến MSN (nếu có liên quan đến cà phê), GVR (nếu có liên quan nông sản khác).
+    *   **Vấn đề chất lượng công trình cao tốc (Ngày 10/02 - Article_186):** Ảnh hưởng tiêu cực đến ngành xây dựng, vật liệu (VCG, HPG).
+
+4.  **Đánh giá Tổng hợp và Trọng số:**
+    *   Các tin tức rất tích cực về triển vọng thị trường chung và các ngành cụ thể (thép, BĐS KCN, FDI) xuất hiện gần đây (ngày 22/02).
+    *   Tin tức tiêu cực nhất là nguy cơ thuế quan từ Mỹ (ngày 23/02), nhưng mức độ ảnh hưởng tức thời chưa rõ ràng (""có thể"").
+    *   Các yếu tố tiêu cực khác như lừa đảo, tỷ giá, lạm phát đã tồn tại và chưa có dấu hiệu đột biến mạnh trong những ngày cuối cùng của KG.
+    *   Để thị trường ""sập"" (giảm RẤT MẠNH ~5%), cần có một cú sốc tiêu cực lớn, lan tỏa rộng hoặc sự cộng hưởng của nhiều yếu tố xấu cùng lúc. Thông tin về thuế quan Mỹ là yếu tố đáng ngại nhất, nhưng tính ""tiềm ẩn"" của nó có thể chưa đủ để gây sập giá *ngay lập tức* vào ngày hôm sau, đặc biệt khi có các thông tin tích cực khác đối trọng.
+
+5.  **Kết luận:** Mặc dù có rủi ro tiềm ẩn từ chính sách thuế Mỹ và các yếu tố tiêu cực khác, nhưng các thông tin tích cực về triển vọng thị trường, FDI, và một số ngành chủ chốt (thép, BĐS KCN) xuất hiện gần đây có thể tạo lực đỡ. Khả năng xảy ra một đợt ""sập giá"" (giảm rất mạnh 5%) trên diện rộng cho toàn bộ danh mục vào ngày *tiếp theo* là không cao dựa trên các bằng chứng trong KG.
+
+**Crash:** No"
+2025-02-25T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có một số tín hiệu tích cực chung về kinh tế vĩ mô (mục tiêu GDP, FDI - vd: Article_100, Article_101, Article_436, Article_471, Article_283, Article_291, Article_324, Article_325), các thông tin tiêu cực gần đây (ngày 23-24/02) có tác động mạnh và trực tiếp hơn đến danh mục:
+1.  **Căng thẳng thương mại/Thuế quan:** Article_443 (23/02) đề cập đến kế hoạch thuế quan của Mỹ có thể ảnh hưởng tiêu cực đến ngành công nghiệp và xuất khẩu Việt Nam (ảnh hưởng HPG, VCG, GVR, FPT). Article_259 (23/02) cũng đề cập áp lực từ chính sách Mỹ gây tiêu cực cho ngành thép và thị trường chung.
+2.  **Thuế chống bán phá giá thép:** Article_477 (24/02) cho thấy việc áp thuế chống bán phá giá thép (mặc dù tiêu đề bài báo gây nhiễu) có tác động TIÊU CỰC đến ngành thép (HPG), ngành công nghiệp nói chung và nhà đầu tư. Điều này được củng cố bởi Article_259 (23/02).
+3.  **Biến động tỷ giá:** Article_474 (24/02) và Article_404 (21/02) ghi nhận tác động TIÊU CỰC của biến động tỷ giá đến doanh nghiệp xuất khẩu (ảnh hưởng HPG, GVR, FPT, VCG) và thị trường chứng khoán nói chung. Article_250 (13/02) cũng cho thấy tỷ giá tăng gây tiêu cực cho nhập khẩu và người tiêu dùng.
+4.  **An ninh tài chính/công nghệ:** Article_457 (23/02) và Article_343 (18/02) cảnh báo lừa đảo, tác động TIÊU CỰC đến ngành ngân hàng (VCB), tài chính (SSI) và công nghệ (FPT).
+5.  **Giá cả hàng hóa biến động:** Giá cà phê, dầu, vàng biến động mạnh (Article_281, Article_289, Article_345, Article_434) tạo ra sự không chắc chắn. Đặc biệt, giá cà phê và dầu giảm (Article_281, Article_434) có thể tác động tiêu cực đến GAS và các doanh nghiệp liên quan đến nông sản/chế biến như MSN, GVR.
+6.  **Áp lực bán ròng của khối ngoại:** Article_259 (23/02) đề cập khối ngoại bán ròng gây áp lực tiêu cực lên thị trường chứng khoán.
+
+Những yếu tố tiêu cực này tác động trực tiếp đến nhiều cổ phiếu lớn trong danh mục (HPG, VCG, GVR, FPT, VCB, SSI, GAS) và tâm lý nhà đầu tư, có khả năng lấn át các tin tức tích cực chung và gây ra sự sụt giảm giá mạnh (""sập giá"") vào ngày tiếp theo (25/02)."
+2025-02-26T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-02-25:
+*   **Tích cực:** Có nhiều tín hiệu tích cực về kinh tế vĩ mô như mục tiêu tăng trưởng GDP cao (Article_100, 215, 299, 324), dòng vốn FDI mạnh (Article_14, 101, 291, 325), và các chính sách hỗ trợ doanh nghiệp, phát triển công nghiệp (Article_42, 64, 68, 79, 205, 436). Thị trường chứng khoán được kỳ vọng tăng trưởng (Article_421, 424). Các ngành cụ thể như BĐS công nghiệp (Article_261, 458), thép (kỳ vọng phục hồi - Article_239, 421), công nghệ (Article_228, 427), ngân hàng (tăng trưởng tín dụng - Article_217, hỗ trợ mua nhà - Article_282), dệt may (Article_190, 401) có những thông tin hỗ trợ. Giá xăng dầu gần đây có xu hướng giảm hoặc ổn định (Article_164, 400).
+*   **Tiêu cực:** Tồn tại những rủi ro như căng thẳng thương mại Mỹ-Trung và nguy cơ thuế quan mới từ Mỹ (Article_105, 443), áp lực tỷ giá USD tăng (Article_103, 250, 404), cảnh báo lừa đảo tài chính/an ninh mạng gia tăng (Article_117, 343, 457), giá nhà neo cao ảnh hưởng khả năng mua (Article_41, 484), biến động giá cà phê (giảm mạnh gần đây - Article_281, 289, 481), và nguy cơ thuế chống bán phá giá thép ở thị trường khác (Article_116, 245). Khối ngoại có động thái bán ròng (Article_259). Đề xuất đánh thuế lãi tiết kiệm có thể ảnh hưởng tiêu cực đến dòng tiền (Article_334, 392).
+*   **Tổng kết:** Mặc dù có nhiều yếu tố rủi ro và tín hiệu trái chiều (ví dụ: giá cà phê giảm mạnh gần đây ảnh hưởng tiêu cực đến nông dân/xuất khẩu nhưng lại có thể tốt cho người tiêu dùng/doanh nghiệp chế biến trong ngắn hạn), các thông tin tích cực về tăng trưởng kinh tế, FDI, và hỗ trợ chính sách gần đây vẫn đáng kể. Không có dấu hiệu rõ ràng về một sự kiện tiêu cực cực đoan có khả năng gây ""sập giá"" (crash) đồng loạt cho toàn bộ danh mục vào ngày tiếp theo (2025-02-26) chỉ dựa trên dữ liệu được cung cấp. Khả năng cao là thị trường sẽ tiếp tục biến động theo ngành và cổ phiếu cụ thể hơn là sụp đổ toàn diện."
+2025-02-27T01:00:00+07:00,No,"Crash: No
+Explanation: Mặc dù có một số tín hiệu tiêu cực gần đây, bức tranh tổng thể từ đồ thị tri thức không đủ mạnh để dự đoán một sự ""sập giá"" toàn diện cho danh mục đa dạng này vào ngày mai (2025-02-27).
+
+**Lý do chính cho sự thận trọng (tiêu cực):**
+
+1.  **Áp lực từ thị trường quốc tế và dòng vốn ngoại:**
+    *   Thị trường chứng khoán Mỹ suy yếu (Article_252) và có tác động tiêu cực lan tỏa (2025-02-23, thị trường chứng khoán mỹ, NEGATIVE TO, thị trường chứng khoán việt nam).
+    *   Khối ngoại bán ròng (Article_259), gây áp lực lên thanh khoản và tâm lý thị trường chung (Article_259, thị trường chứng khoán việt nam NEGATIVE TO nhà đầu tư nước ngoài).
+    *   Căng thẳng thương mại Mỹ-Trung leo thang (Article_105) và kế hoạch thuế quan mới của Mỹ (Article_443) có thể ảnh hưởng tiêu cực đến kinh tế và xuất khẩu Việt Nam.
+
+2.  **Vấn đề ngành thép (HPG):**
+    *   Liên tục có thông tin tiêu cực về ngành thép liên quan đến điều tra chống bán phá giá tại Malaysia (Article_245), áp lực từ chính sách Mỹ (Article_259), và áp thuế tại Thái Lan (Article_116). Cổ phiếu thép (bao gồm HPG) được đề cập là chịu ảnh hưởng tiêu cực (Article_199, 477).
+
+3.  **Rủi ro hệ thống và tâm lý:**
+    *   Lo ngại về lừa đảo tài chính và an ninh mạng gia tăng (Article_117, 178, 343, 457), có thể ảnh hưởng đến niềm tin vào hệ thống tài chính (ngân hàng, công nghệ).
+    *   Đề xuất đánh thuế lãi tiết kiệm (Article_334, 392) gây tranh cãi, có thể ảnh hưởng dòng tiền và tâm lý nhà đầu tư.
+
+4.  **Áp lực tỷ giá:**
+    *   Tỷ giá USD có biến động tăng (Article_103, 250, 404), gây áp lực lên doanh nghiệp nhập khẩu và có thể ảnh hưởng tiêu cực đến thị trường chứng khoán.
+
+**Tuy nhiên, các yếu tố tích cực có thể làm giảm nguy cơ sụp đổ:**
+
+1.  **Triển vọng kinh tế vĩ mô tích cực:**
+    *   Nhiều nguồn tin khẳng định kinh tế Việt Nam khởi sắc, đặt mục tiêu tăng trưởng GDP cao (Article_100, 215, 299, 324, 283). HSBC dự báo Việt Nam dẫn đầu tăng trưởng ASEAN (Article_324).
+    *   Đầu tư công được xem là động lực tăng trưởng GDP (Article_302).
+
+2.  **Dòng vốn FDI và đầu tư:**
+    *   FDI tiếp tục chảy mạnh vào Việt Nam, đặc biệt tháng 1/2025 tăng trưởng tốt (Article_101, 291, 325). Các tập đoàn lớn (Hàn Quốc) mở rộng đầu tư (Article_325).
+    *   Thu hút đầu tư vào các khu công nghiệp, bất động sản công nghiệp tăng trưởng tốt (Article_261, 458).
+
+3.  **Hoạt động sản xuất, xuất khẩu:**
+    *   Xuất khẩu tháng 1/2025 tăng trưởng (Article_101), xuất siêu CPTPP (Article_33), xuất khẩu sang Mỹ tăng mạnh (Article_331).
+    *   Một số ngành như dệt may (Article_190, 401), thủy sản (Article_330) có tín hiệu tích cực về xuất khẩu.
+    *   Chính phủ có chính sách hỗ trợ doanh nghiệp sản xuất và tiêu dùng bền vững (Article_471).
+
+4.  **Tín hiệu tích cực từ thị trường chứng khoán:**
+    *   VN-Index được kỳ vọng hướng đến mốc 1.300 điểm (Article_421).
+    *   Kỳ vọng vào sự dẫn dắt lợi nhuận của một số nhóm ngành (Article_424).
+    *   Dòng tiền gửi vào ngân hàng tăng (Article_286), có thể một phần tìm đến kênh đầu tư khác như chứng khoán khi lãi suất tiết kiệm bị đề xuất đánh thuế.
+
+5.  **Các ngành khác trong danh mục:**
+    *   Công nghệ (FPT): Hưởng lợi từ chuyển đổi số, đầu tư vào công nghệ (Article_228, 231).
+    *   Ngân hàng (VCB): Hưởng lợi từ mục tiêu tăng trưởng tín dụng (Article_217), tiềm năng từ việc cơ cấu lại thị trường BĐS (Article_225).
+    *   Bất động sản (VHM): Hưởng lợi từ BĐS công nghiệp (Article_261, 458), chu kỳ mới (Article_225).
+    *   Tiêu dùng, Bán lẻ (MSN, MWG): Hưởng lợi từ tăng trưởng kinh tế chung, tiêu dùng phục hồi (Article_183, 482), hàng Việt được ưa chuộng (Article_309).
+    *   Công nghiệp/Xây dựng (VCG, GVR): Hưởng lợi từ đầu tư công, phát triển hạ tầng (Article_302, 384).
+
+**Kết luận:** Rủi ro giảm điểm tồn tại, đặc biệt với HPG và các cổ phiếu nhạy cảm với dòng vốn ngoại và chính sách thương mại quốc tế. Tuy nhiên, các yếu tố kinh tế vĩ mô tích cực, dòng vốn FDI mạnh mẽ và các chính sách hỗ trợ từ chính phủ được ghi nhận trong đồ thị tri thức có thể tạo ra sức chống đỡ, ngăn chặn một cú ""sập giá"" trên diện rộng toàn danh mục trong ngày kế tiếp."
+2025-02-28T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều tín hiệu tích cực về tăng trưởng GDP, FDI và các chính sách hỗ trợ kinh tế nói chung trong đồ thị tri thức, một số yếu tố tiêu cực gần đây có thể gây áp lực giảm giá mạnh lên danh mục trong ngày tiếp theo:
+1.  **Áp lực bán ròng từ khối ngoại:** Article_259 (2025-02-13) đề cập đến việc khối ngoại bán ròng và áp lực từ chính sách Mỹ, tác động tiêu cực trực tiếp đến thị trường chứng khoán Việt Nam và ngành thép (HPG). Đây là một tín hiệu rất tiêu cực cho tâm lý thị trường ngắn hạn.
+2.  **Biến động tiêu cực/trái chiều ở các cổ phiếu/ngành chủ chốt:**
+    *   **HPG (Thép):** Có thông tin cực kỳ mâu thuẫn. Article_199 (2025-02-10) nói HPG giảm sâu do tuyên bố của Trump và tác động tiêu cực đến ngành thép. Article_116 (2025-02-06) đề cập nguy cơ thuế ở Thái Lan. Mặc dù Article_421 (2025-02-22) kỳ vọng bùng nổ, nhưng các sự kiện tiêu cực cụ thể gần đây hơn có thể ảnh hưởng mạnh trong ngắn hạn. Article_259 (2025-02-13) cũng nêu tác động tiêu cực đến ngành thép từ khối ngoại.
+    *   **Ngân hàng (VCB):** Nhiều yếu tố tiêu cực như chính sách mới (Article_11), lừa đảo tài chính gia tăng (Article_117, 343, 457), đề xuất đánh thuế lãi tiết kiệm (Article_392), biến động nhân sự (Article_250). Mặc dù tín dụng tăng trưởng (Article_217), các rủi ro này có thể ảnh hưởng tiêu cực.
+    *   **Dầu khí (GAS):** Giá dầu thế giới biến động, có các báo cáo giảm giá gần đây (Article_281, 434). Điều này có thể ảnh hưởng tiêu cực đến doanh thu của GAS.
+    *   **Cao su/Chế biến (GVR):** Article_434 (2025-02-22) đề cập giá cao su giảm.
+3.  **Biến động tỷ giá:** Nhiều bài báo gần đây (Article_103, 250, 404, 474) cho thấy tỷ giá USD biến động và có xu hướng tăng, gây áp lực tiêu cực lên lạm phát, người tiêu dùng, doanh nghiệp nhập khẩu và thị trường chứng khoán nói chung.
+4.  **Giá hàng hóa thế giới giảm:** Article_281 (2025-02-15) và Article_434 (2025-02-22) báo cáo giá dầu, vàng, cà phê, bạc, đồng, cao su đều giảm, chỉ có quặng sắt tăng. Sự sụt giảm đồng loạt này thường là tín hiệu xấu cho tâm lý thị trường toàn cầu và các ngành liên quan.
+5.  **Rủi ro chính sách:** Đề xuất đánh thuế lãi tiết kiệm (Article_392) và nguy cơ thuế quan từ Mỹ (Article_443) tạo ra sự không chắc chắn.
+
+Tổng hợp lại, mặc dù có nền tảng kinh tế vĩ mô tích cực, các yếu tố tiêu cực ngắn hạn như áp lực bán ròng của khối ngoại, tin xấu cụ thể cho HPG, biến động tỷ giá, giá hàng hóa thế giới giảm và rủi ro chính sách tiềm ẩn tạo ra nguy cơ cao về một phiên giảm giá mạnh (""sập giá"") cho danh mục vào ngày tiếp theo."
+2025-03-03T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có một số tin tức vĩ mô tích cực như mục tiêu GDP cao (Article_585, 324), FDI tiếp tục chảy mạnh (Article_291, 325) và các dự án hạ tầng được thúc đẩy (Article_526, 597), có nhiều yếu tố tiêu cực đáng kể xuất hiện gần đây có thể gây áp lực giảm giá lên danh mục vào ngày tiếp theo:
+1.  **Tỷ giá USD tăng:** Nhiều bài báo gần đây (Article_573, 590, 404) chỉ ra tỷ giá USD tăng và liên kết trực tiếp điều này với tác động TIÊU CỰC đến thị trường chứng khoán Việt Nam, doanh nghiệp nhập khẩu và người tiêu dùng. Đây là yếu tố rủi ro lớn cho toàn thị trường (ảnh hưởng SSI, VCB, FPT, MWG, MSN).
+2.  **Áp lực lên ngành Thép (HPG):** Mặc dù có kỳ vọng phục hồi (Article_239, 421), các tin tức gần đây hơn về nguy cơ thuế chống bán phá giá từ Malaysia (Article_245) và áp lực từ chính sách Mỹ (Article_259) tạo ra rủi ro đáng kể cho HPG và ngành thép nói chung.
+3.  **Rủi ro ngành Ngân hàng (VCB) và Công nghệ (FPT):** Cảnh báo về lừa đảo tài chính và an ninh mạng gia tăng (Article_590, 457, 343) có thể ảnh hưởng tiêu cực đến niềm tin và chi phí hoạt động của ngành ngân hàng và công nghệ. Việc VietABank tăng lãi suất tiết kiệm (Article_288) và đề xuất đánh thuế lãi tiết kiệm (Article_334) cũng tạo ra sự không chắc chắn.
+4.  **Giá năng lượng giảm (GAS):** Giá dầu và gas bán lẻ giảm (Article_572, 577, 281) có thể tác động tiêu cực đến lợi nhuận của các công ty trong ngành khai thác và phân phối khí như GAS.
+5.  **Áp lực lên Tiêu dùng (MSN, MWG):** Mặc dù có một số tín hiệu tích cực cho bán lẻ, các bài báo về việc người dân khó sống với mức lương thấp ở thành thị (Article_263) và giá cả một số dịch vụ/mặt hàng tăng cao (Article_484, 500) cho thấy sức mua của người tiêu dùng có thể bị hạn chế, ảnh hưởng đến MSN và MWG. Biến động giá nông sản (cà phê, heo hơi - Art 595, 329, 481) cũng tạo bất ổn.
+6.  **Tâm lý thị trường chung:** Thị trường chứng khoán Mỹ suy yếu (Article_252) và khối ngoại bán ròng (Article_259) dù là tin cũ hơn nhưng tạo bối cảnh thận trọng. Biến động giá vàng (Art 583, 286) cũng cho thấy sự tìm kiếm kênh trú ẩn an toàn, thường đi kèm tâm lý e ngại rủi ro trên thị trường cổ phiếu.
+
+Tổng hợp lại, các yếu tố tiêu cực như tỷ giá USD tăng mạnh, rủi ro ngành thép, lo ngại về lừa đảo trong ngành ngân hàng/công nghệ, giá năng lượng giảm và sức mua tiêu dùng bị ảnh hưởng có vẻ chiếm ưu thế và có khả năng tác động mạnh trong ngắn hạn (ngày tiếp theo), đủ để gây ra một phiên giảm giá đáng kể (""sập giá"") cho danh mục, bất chấp các tin tức vĩ mô dài hạn tích cực."
+2025-03-04T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp, có nhiều yếu tố tích cực hỗ trợ thị trường và các ngành trong danh mục. Các yếu tố tích cực bao gồm:
+*   Kỳ vọng VN-Index tăng trưởng (Article_421) và dự báo tăng trưởng lợi nhuận thị trường (Article_424).
+*   Mục tiêu tăng trưởng GDP cao và dòng vốn FDI mạnh mẽ (Article_100, 215, 283, 291, 324, 325, 585), cho thấy niềm tin vào kinh tế Việt Nam.
+*   Tăng trưởng tín dụng và các chính sách hỗ trợ doanh nghiệp, phát triển kinh tế tư nhân (Article_217, 538, 436, 205, 279).
+*   Đầu tư mạnh vào cơ sở hạ tầng (đường sắt, cảng, KCN) và công nghiệp (Article_526, 302, 261, 225, 458, 384, 597), có lợi cho VCG, VHM, HPG (gián tiếp), GVR, GAS (gián tiếp).
+*   Triển vọng tích cực cho ngành công nghệ và bán dẫn (Article_427, 555), hỗ trợ FPT.
+*   Ngành ngân hàng có tín hiệu tăng vốn, giảm lãi suất cho vay mua nhà (Article_603, 282, 538), hỗ trợ VCB và thị trường chung.
+*   Giá xăng dầu có xu hướng giảm (Article_164, 572) và giá gas giảm (Article_577), giúp giảm chi phí và kích thích tiêu dùng, có lợi cho MWG, MSN.
+*   Xuất khẩu tăng trưởng tốt ở nhiều mặt hàng (thủy sản, dệt may, mì) và Việt Nam xuất siêu CPTPP (Article_101, 190, 330, 387, 33).
+
+Mặc dù có một số yếu tố tiêu cực như:
+*   Áp lực bán ròng của khối ngoại và chính sách Mỹ (Article_259).
+*   Biến động tỷ giá USD tăng (Article_103, 590, 404, 573).
+*   Giá một số hàng hóa như cà phê, thép, vàng có biến động giảm gần đây (Article_281, 434, 567, 245, 289).
+*   Nguy cơ thuế chống bán phá giá thép (Article_116, 477) ảnh hưởng HPG.
+*   Các vấn đề về lừa đảo tài chính, an ninh mạng (Article_117, 457, 178).
+*   Lo ngại về nguồn cung và giá cả một số nông sản (cà phê, sầu riêng - Article_106, 481, 528).
+*   Các vấn đề về chất lượng công trình hạ tầng (Article_186).
+
+Tuy nhiên, các tín hiệu tích cực về tăng trưởng kinh tế vĩ mô, FDI, đầu tư công, tín dụng và sự phục hồi/kỳ vọng tăng trưởng của các ngành chủ chốt (công nghiệp, xây dựng, công nghệ, ngân hàng, bán lẻ) có vẻ chiếm ưu thế trong các thông tin gần nhất (đặc biệt là các bài báo từ 2025-03-01 đến 2025-03-03). Do đó, dự đoán danh mục sẽ không ""sập giá"" vào ngày tiếp theo (2025-03-04)."
+2025-03-05T01:00:00+07:00,No,"Crash: No
+Explanation: Mặc dù có một số yếu tố tiêu cực tiềm ẩn được ghi nhận trong đồ thị tri thức, các yếu tố tích cực tổng thể cho nền kinh tế Việt Nam và các ngành chính trong danh mục dường như chiếm ưu thế hơn cho ngày giao dịch tiếp theo (2025-03-05).
+
+1.  **Tín hiệu kinh tế vĩ mô tích cực:** Nhiều bài báo gần đây (ví dụ: Article_100, Article_215, Article_283, Article_324) nhấn mạnh mục tiêu tăng trưởng GDP cao (8%, >500 tỷ USD), dòng vốn FDI mạnh mẽ (Article_101, Article_291, Article_325), và các chính sách hỗ trợ doanh nghiệp (Article_42, Article_68, Article_76, Article_205, Article_436). Điều này tạo ra một bối cảnh kinh tế cơ bản thuận lợi.
+2.  **Triển vọng thị trường chứng khoán:** Mặc dù có áp lực bán ròng từ khối ngoại và lo ngại về chính sách Mỹ (Article_259), thị trường chứng khoán Việt Nam (VN-Index) được kỳ vọng hướng đến mốc 1300 điểm (Article_421) và được thúc đẩy bởi các ngành dẫn dắt (Article_424). Tăng trưởng tín dụng (Article_217) cũng có thể hỗ trợ thị trường.
+3.  **Tác động ngành cụ thể:**
+    *   **Công nghiệp (VCG, HPG, GVR):** Hưởng lợi lớn từ đầu tư công vào hạ tầng (cao tốc, sân bay, đường sắt - Article_13, 30, 64, 302, 526), phát triển KCN (Article_14, 49, 50, 64, 225, 261, 458), và mục tiêu tăng trưởng công nghiệp (Article_100, 283, 427). Tuy nhiên, HPG đối mặt rủi ro thuế quan từ Mỹ và Thái Lan (Article_116, 199, 259, 477), nhưng cũng có tín hiệu tích cực về sản xuất thép chất lượng cao (Article_239) và kỳ vọng phục hồi (Article_421). Nhìn chung, ngành công nghiệp có nhiều động lực tăng trưởng.
+    *   **Bất động sản (VHM):** Hưởng lợi từ FDI vào KCN (Article_261, 458), kỳ vọng phục hồi thị trường (Article_6), và chính sách hỗ trợ (Article_225). Tín dụng cho vay mua nhà tăng (Article_282) cũng là yếu tố tích cực.
+    *   **Ngân hàng (VCB) & Chứng khoán (SSI):** Hưởng lợi từ tăng trưởng tín dụng (Article_217, 263), mục tiêu tăng trưởng GDP cao, và dòng vốn FDI. Tuy nhiên, biến động tỷ giá (Article_103, 250, 404), lừa đảo tài chính (Article_117, 178, 457), và biến động lãi suất (Article_32, 551) tạo ra rủi ro. Nhìn chung, triển vọng vẫn khá tích cực nhờ nền kinh tế chung.
+    *   **Bán lẻ (MWG) & Tiêu dùng (MSN):** Hưởng lợi từ giá xăng dầu giảm (Article_164, 572), giá gas giảm (Article_577), khả năng giảm thuế VAT (Article_611), và tăng trưởng tiêu dùng chung. Tuy nhiên, giá một số mặt hàng (thịt heo - Article_90, 631, 634) tăng cao và biến động giá cà phê (Article_106, 281, 289, 329, 345, 481, 567) có thể ảnh hưởng.
+    *   **Công nghệ (FPT):** Hưởng lợi từ tăng trưởng chung, FDI công nghệ (Article_555), chính sách hỗ trợ (Article_228), và nhu cầu số hóa (Article_248). Rủi ro từ an ninh mạng và lừa đảo (Article_117, 178, 457) là yếu tố cần lưu ý.
+    *   **Dịch vụ Hạ tầng (GAS):** Hưởng lợi từ tăng trưởng công nghiệp và mục tiêu GDP. Giá dầu/gas thế giới biến động (giảm gần đây - Article_572, 577) có thể ảnh hưởng doanh thu nhưng cũng giảm chi phí cho các ngành khác.
+4.  **Các yếu tố tiêu cực:** Các yếu tố tiêu cực chính bao gồm áp lực tỷ giá USD tăng (Article_103, 250, 404, 573, 590), căng thẳng thương mại Mỹ-Trung (Article_105), rủi ro thuế quan với ngành thép (HPG), giá một số nông sản/thực phẩm tăng cao ảnh hưởng lạm phát và tiêu dùng, và các vấn đề lừa đảo tài chính/an ninh mạng. Tuy nhiên, các yếu tố này dường như chưa đủ mạnh để gây ra sự sụp đổ đồng loạt cho toàn bộ danh mục đa dạng này trong ngày tiếp theo, đặc biệt khi các chỉ số vĩ mô và mục tiêu tăng trưởng vẫn rất tích cực.
+
+**Kết luận:** Dựa trên sự cân bằng giữa các yếu tố tích cực (tăng trưởng GDP, FDI, đầu tư công, triển vọng thị trường) và tiêu cực (áp lực tỷ giá, thuế quan thép, lạm phát cục bộ) trong KG, khả năng danh mục ""sập giá"" vào ngày 2025-03-05 là thấp."
+2025-03-06T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-03-05:
+
+1.  **Các yếu tố tích cực chiếm ưu thế:**
+    *   **Tăng trưởng kinh tế và FDI:** Nhiều thông tin khẳng định mục tiêu tăng trưởng GDP cao (Article_100, 215, 324, 299), dòng vốn FDI chảy mạnh (Article_101, 291, 325), và xuất khẩu tăng trưởng (Article_101, 331, 387, 536, 657). Các yếu tố này thường tác động tích cực đến thị trường chứng khoán nói chung và các ngành Công nghiệp (VCG, HPG, GVR), Công nghệ (FPT), Tiêu dùng (MSN, MWG).
+    *   **Phát triển công nghiệp và hạ tầng:** Có nhiều thông tin về việc đẩy mạnh các dự án hạ tầng (Article_13, 30, 64, 186, 526), phát triển khu công nghiệp (Article_49, 64, 225, 261, 458), và đầu tư công (Article_302), tạo động lực cho các ngành Công nghiệp (VCG), Vật liệu cơ bản (HPG), Bất động sản công nghiệp (liên quan VHM, GVR), Dịch vụ Hạ tầng (GAS).
+    *   **Triển vọng một số ngành:** Ngành công nghiệp bán dẫn (liên quan FPT), năng lượng tái tạo (liên quan GAS, VCG), và bất động sản công nghiệp (VHM, GVR) được đề cập với triển vọng tích cực (Article_68, 176, 427, 261, 458). Ngành ngân hàng (VCB) và chứng khoán (SSI) cũng nhận được các tín hiệu tích cực từ tăng trưởng tín dụng và mục tiêu thị trường (Article_217, 421, 538). Ngành bán lẻ (MWG) và tiêu dùng (MSN) hưởng lợi từ các chính sách hỗ trợ doanh nghiệp và tiêu dùng (Article_309, 436, 599). Cổ phiếu thép (HPG) được kỳ vọng bùng nổ (Article_421) dù có thông tin tiêu cực trước đó.
+
+2.  **Các yếu tố tiêu cực và rủi ro:**
+    *   **Biến động tỷ giá USD:** Nhiều thông tin gần đây (Article_103, 250, 404, 573, 590, 611) cho thấy tỷ giá USD tăng/biến động, thường gây áp lực tiêu cực lên thị trường chứng khoán và các doanh nghiệp nhập khẩu.
+    *   **Áp lực lên ngành thép (HPG):** Có thông tin về việc HPG giảm sâu (Article_199), nguy cơ thuế chống bán phá giá (Article_116), và áp lực từ chính sách Mỹ (Article_259), dù gần đây có kỳ vọng phục hồi (Article_239, 421).
+    *   **Lừa đảo tài chính và an ninh mạng:** Các cảnh báo lừa đảo gia tăng (Article_117, 343, 457, 590, 603) có thể ảnh hưởng tiêu cực đến niềm tin vào ngành Ngân hàng (VCB) và Công nghệ (FPT).
+    *   **Giá cả hàng hóa biến động:** Giá cà phê, thịt heo biến động mạnh (nhiều bài báo), có thể ảnh hưởng đến ngành Tiêu dùng (MSN) và lạm phát. Giá dầu/xăng cũng biến động (Article_400, 572).
+    *   **Áp lực lạm phát và chi phí sinh hoạt:** Mặc dù lạm phát được kiểm soát (Article_536), vẫn có những lo ngại về chi phí sinh hoạt cao (Article_263) và mục tiêu tăng trưởng cao có thể gây áp lực lạm phát (Article_100, 215, 217, 324).
+
+3.  **Tổng kết:** Mặc dù có những yếu tố tiêu cực như biến động tỷ giá, áp lực lên ngành thép và các vấn đề an ninh mạng, nhưng các tín hiệu tích cực về tăng trưởng kinh tế vĩ mô, FDI, đầu tư công, và triển vọng của nhiều ngành chủ chốt trong danh mục (Công nghiệp, Công nghệ, Bất động sản KCN, Bán lẻ, Ngân hàng) có vẻ chiếm ưu thế và tạo nền tảng hỗ trợ cho thị trường chung. Các yếu tố tiêu cực dường như chưa đủ mạnh để gây ra một cú ""sập giá"" trên diện rộng cho toàn bộ danh mục đa dạng này trong ngày tiếp theo, dựa *chỉ* trên thông tin từ đồ thị tri thức đã cho."
+2025-03-07T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức đến ngày 2025-03-06, dự đoán danh mục sẽ không ""sập giá"" vào ngày tiếp theo (2025-03-07). Lý do chính bao gồm:
+*   **Chính sách tiền tệ nới lỏng:** Việc NHNN hạ lãi suất OMO và dừng phát hành tín phiếu, cùng với việc nhiều ngân hàng (bao gồm VCB) giảm lãi suất huy động (Article_132, Article_89, Article_87) tạo môi trường thuận lợi, bơm thanh khoản cho thị trường, hỗ trợ các ngành nhạy cảm với lãi suất như Ngân hàng (VCB), Chứng khoán (SSI), Bất động sản (VHM).
+*   **Tâm lý thị trường tích cực:** VN-Index liên tục tăng, bùng nổ áp sát 1320 điểm vào ngày 06/03 với thanh khoản cao (Article_139, Article_117, Article_81, Article_54). Dòng tiền nội đổ mạnh vào thị trường và đặc biệt, khối ngoại đã mua ròng trở lại vào ngày 06/03 (Article_139), đảo ngược xu hướng bán ròng trước đó (Article_117, Article_77, Article_51). Điều này hỗ trợ tích cực cho nhóm Chứng khoán (SSI).
+*   **Triển vọng kinh tế và đầu tư:** Chính phủ đặt mục tiêu tăng trưởng GDP cao (Article_116, Article_80), thúc đẩy đầu tư công vào hạ tầng giao thông và công nghiệp (Article_138, Article_91, Article_42) và thu hút FDI mạnh mẽ, đặc biệt từ Nhật Bản (Article_135, Article_42). Điều này tạo động lực cho các ngành Công nghiệp (VCG), Vật liệu cơ bản (HPG), Bất động sản KCN (GVR), Dịch vụ Hạ tầng (GAS).
+*   **Thông tin tích cực ngành cụ thể:** Có tin tức tích cực riêng cho VHM về việc chốt deal lớn và kế hoạch mở bán (Article_86) và VCB về việc mở rộng hoạt động, giảm lãi suất (Article_70, Article_87). Cổ phiếu chứng khoán (SSI) hưởng lợi trực tiếp từ thanh khoản thị trường và tâm lý lạc quan (Article_139, Article_54).
+*   **Các yếu tố tiêu cực:** Mặc dù có các yếu tố tiêu cực như áp lực lạm phát từ giá heo, giá vàng và các mặt hàng khác (Article_142, Article_112, Article_100), rủi ro từ chính sách Mỹ (Article_137), vụ rò rỉ dữ liệu thẻ tín dụng gây lo ngại về an ninh mạng (Article_104) và việc khối ngoại bán ròng mạnh trước đó (đặc biệt ảnh hưởng FPT, HPG - Article_51, Article_40), nhưng các yếu tố tích cực về dòng tiền, chính sách vĩ mô và sự trở lại của khối ngoại tại thời điểm 06/03 có vẻ chiếm ưu thế hơn và đủ để ngăn chặn một cú ""sập giá"" trên diện rộng của toàn danh mục trong ngày tiếp theo. Các cổ phiếu tiêu dùng (MSN, MWG) có thể chịu áp lực từ lạm phát và sức mua giảm."
+2025-03-10T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-03-09, dự đoán danh mục cổ phiếu sẽ **không** ""sập giá"" vào ngày tiếp theo (2025-03-10).
+
+**Lý do:**
+
+1.  **Xu hướng Thị trường Chung Tích cực:** Nhiều tin tức gần đây (đặc biệt từ 2025-03-06 đến 2025-03-09) cho thấy VN-Index đang có xu hướng tăng mạnh, vượt các mốc quan trọng (1300, 1325) và hướng tới các mục tiêu cao hơn (Article_193, Article_81, Article_139, Article_54). Thanh khoản thị trường cao và có dấu hiệu dòng tiền nội mạnh mẽ (Article_117, Article_139). Kỳ vọng nâng hạng thị trường cũng là yếu tố hỗ trợ (Article_175, Article_55).
+2.  **Tín hiệu Tích cực cho các Ngành Trọng điểm trong Danh mục:**
+    *   **Ngân hàng (VCB):** Có nhiều tin tức tích cực trực tiếp cho VCB (Article_182, Article_163, Article_147, Article_87, Article_30) và ngành ngân hàng nói chung (lãi suất giảm - Article_132, Article_89, Article_87; dẫn dắt thị trường - Article_32).
+    *   **Chứng khoán (SSI):** Hưởng lợi trực tiếp từ đà tăng của thị trường, thanh khoản cao và kỳ vọng nâng hạng (Article_195, Article_200, Article_175, Article_139, Article_55). Có tin tích cực trực tiếp cho SSI (Article_139).
+    *   **Bất động sản (VHM):** Mặc dù có một số lo ngại về chính sách nhà ở xã hội (Article_155, Article_170) và thị trường trái phiếu (Article_184), VHM gần đây có tin tức rất tích cực về việc tăng giá cổ phiếu, chốt deal lớn (Article_86) và hưởng lợi từ sức mạnh của tập đoàn mẹ Vingroup (Article_193). Các dự án hạ tầng lớn cũng hỗ trợ gián tiếp (Article_171).
+    *   **Công nghiệp/Xây dựng (VCG):** Ngành xây dựng và hạ tầng liên tục nhận được thông tin tích cực về việc đẩy mạnh các dự án trọng điểm (Article_171, Article_165, Article_161, Article_138, Article_91), dù có lo ngại về tốc độ giải ngân đầu tư công (Article_176).
+    *   **Chế biến/Công nghiệp (GVR):** Hưởng lợi từ xu hướng phát triển công nghiệp và hạ tầng chung (Article_138, Article_116).
+    *   **Công nghệ (FPT):** Có các tin tức hỗ trợ ngành như phát triển AI, chip (Article_28, Article_4, Article_159), dù có lo ngại về tác động việc làm của AI (Article_197) và FPT bị khối ngoại bán (Article_51).
+3.  **Chính sách Tiền tệ Nới lỏng:** Việc NHNN hạ lãi suất OMO và các ngân hàng giảm lãi suất huy động (Article_132, Article_89, Article_87) tạo môi trường thuận lợi cho thị trường chứng khoán và hoạt động kinh doanh.
+4.  **Triển vọng Kinh tế Vĩ mô:** Các mục tiêu tăng trưởng GDP cao được đặt ra (Article_116, Article_80, Article_42) và dự báo tăng trưởng được nâng cấp (Article_176), tạo niềm tin vào nền kinh tế.
+
+**Các yếu tố Tiêu cực Cần Lưu ý (Nhưng chưa đủ để gây sập giá):**
+
+1.  **Áp lực Bán ròng của Khối ngoại:** Đây là yếu tố tiêu cực đáng kể và kéo dài, ảnh hưởng trực tiếp đến HPG (Article_40, Article_51), FPT (Article_51) và thị trường chung (Article_175, Article_117, Article_77, Article_51). Tuy nhiên, có dấu hiệu khối ngoại mua ròng trở lại gần đây (Article_139) và dòng tiền nội đang đối trọng tốt.
+2.  **Lạm phát và Sức mua Tiêu dùng:** Giá cả một số mặt hàng tăng (CPI - Article_185, heo hơi - Article_112, Article_100) có thể ảnh hưởng tiêu cực đến các cổ phiếu Tiêu dùng cơ bản (MSN) và Bán lẻ (MWG).
+3.  **Vấn đề Ngành Thép (HPG):** Ngoài áp lực bán ròng, ngành thép còn đối mặt cạnh tranh từ Trung Quốc (Article_29), dù giá thép trong nước có tăng (Article_59).
+4.  **Rủi ro Thị trường Trái phiếu Doanh nghiệp:** Thị trường TPDN có dấu hiệu ""hụt hơi"" (Article_184), tiềm ẩn rủi ro cho hệ thống tài chính.
+5.  **Rủi ro Ngành Năng lượng Tái tạo:** Kiến nghị khẩn cấp từ các nhà đầu tư (Article_201) cho thấy khó khăn trong ngành này, có thể ảnh hưởng đến niềm tin và các ngân hàng liên quan.
+6.  **Rủi ro An ninh mạng:** Vụ rò rỉ thẻ tín dụng (Article_104) gây lo ngại.
+
+**Kết luận:** Mặc dù tồn tại các yếu tố rủi ro và áp lực bán ròng từ khối ngoại, đặc biệt lên HPG và các cổ phiếu tiêu dùng, nhưng các tín hiệu tích cực từ thị trường chung, các ngành chủ chốt (ngân hàng, chứng khoán, bất động sản VHM, công nghiệp VCG) và chính sách vĩ mô là mạnh mẽ hơn. Do đó, một cú ""sập giá"" trên toàn bộ danh mục vào ngày mai là khó xảy ra dựa trên thông tin từ đồ thị tri thức này."
+2025-03-11T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-03-10, dự đoán danh mục cổ phiếu sẽ không ""sập giá"" vào ngày tiếp theo (2025-03-11). Lý do chính bao gồm:
+
+1.  **Đà Tăng Trưởng Thị Trường Chung:** VN-Index liên tục vượt các mốc điểm quan trọng (vượt 1330 điểm - Article_217, hướng tới 1340-1360 điểm - Article_193) với thanh khoản cao, cho thấy dòng tiền nội mạnh mẽ và tâm lý thị trường lạc quan bất chấp khối ngoại bán ròng. Các bài báo gần đây (Article_175, Article_193, Article_200, Article_217, Article_221) đều nhấn mạnh xu hướng tăng điểm và kỳ vọng tích cực.
+2.  **Kỳ Vọng Nâng Hạng và KRX:** Thông tin về việc hệ thống KRX sắp vận hành (Quý 2/2025) và khả năng nâng hạng thị trường theo FTSE Russell (Tháng 4/2025) (Article_221, Article_55) là động lực lớn, đặc biệt cho nhóm cổ phiếu Chứng khoán (SSI) và tạo hiệu ứng lan tỏa tích cực.
+3.  **Chính Sách Tiền Tệ Nới Lỏng:** Việc lãi suất huy động tiếp tục giảm (Article_222, Article_132) và NHNN hạ lãi suất OMO (Article_132) tạo điều kiện cho lãi suất cho vay hạ, kích thích tín dụng và hỗ trợ các ngành như Ngân hàng (VCB), Bất động sản (VHM), và các doanh nghiệp nói chung.
+4.  **Cổ Phiếu Trụ Cột Vẫn Tích Cực:** VCB liên tục được nhắc đến như yếu tố hỗ trợ thị trường (Article_217, Article_182, Article_163). Mặc dù khối ngoại bán ròng Bluechips, MWG lại được mua ròng mạnh (Article_223). SSI có thông tin tích cực về việc hé lộ doanh nghiệp BĐS nắm giữ cổ phiếu ngân hàng (Article_218). VHM cũng có tin tốt gần đây (Article_86).
+5.  **Chính Sách Vĩ Mô Hỗ Trợ:** Chính phủ đặt mục tiêu tăng trưởng GDP cao (8%) và yêu cầu cải cách thủ tục hành chính (Article_213, Article_116), thúc đẩy đầu tư công và hạ tầng (dù có ghi nhận giải ngân chậm - Article_176, nhưng các dự án vẫn được đẩy mạnh - Article_91, 138, 161, 165, 171), có lợi cho các ngành Công nghiệp (VCG), Vật liệu cơ bản (HPG), Hạ tầng (GAS, GVR).
+
+**Các Yếu Tố Tiêu Cực Cần Lưu Ý (Nhưng Chưa Đủ Gây Sập Giá):**
+*   **Khối ngoại bán ròng:** Áp lực bán ròng từ khối ngoại vẫn tiếp diễn (Article_223, Article_117, Article_51), đặc biệt vào nhóm Bluechips.
+*   **Thị trường TPDN yếu:** Thị trường trái phiếu doanh nghiệp chưa có dấu hiệu phục hồi mạnh (Article_205, Article_184).
+*   **Rủi ro năng lượng:** Việc Mỹ rút khỏi JETP (Article_206) và các kiến nghị từ nhà đầu tư năng lượng tái tạo (Article_201) cho thấy rủi ro trong lĩnh vực này.
+*   **Lạm phát/Giá cả:** CPI tăng nhẹ (Article_185) và giá một số mặt hàng (thịt heo - Article_215, 112, 100) tăng cao gây áp lực lên người tiêu dùng và doanh nghiệp bán lẻ (MSN, MWG).
+
+**Kết luận:** Mặc dù tồn tại các yếu tố rủi ro, nhưng các động lực tăng trưởng từ chính sách vĩ mô, kỳ vọng nâng hạng, dòng tiền nội mạnh và sự tích cực của một số cổ phiếu trụ cột dường như đang chiếm ưu thế. Do đó, khả năng ""sập giá"" toàn danh mục vào ngày 2025-03-11 là thấp dựa trên thông tin từ đồ thị tri thức."
+2025-03-12T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên dữ liệu đồ thị tri thức đến ngày 2025-03-11:
+1.  **Động lực Thị trường Tích cực:** Nhiều bài báo gần đây (ví dụ: 175, 193, 200, 217, 238) cho thấy xu hướng tăng mạnh của VN-Index, vượt qua các mốc quan trọng (1300, 1325, 1330) với thanh khoản cao. Điều này tạo tâm lý tích cực chung cho thị trường.
+2.  **Kỳ vọng Nâng hạng:** Việc kỳ vọng hệ thống KRX đi vào hoạt động (Article 237, 221) và khả năng nâng hạng thị trường bởi FTSE Russell (Article 55, 175, 221) là yếu tố hỗ trợ mạnh mẽ, đặc biệt cho ngành Chứng khoán (SSI).
+3.  **Chính sách Tiền tệ Hỗ trợ:** Các ngân hàng tiếp tục giảm lãi suất huy động (Article 243, 222, 132, 89, 87) và mục tiêu tăng trưởng tín dụng cao (Article 127, 243) tạo điều kiện thuận lợi cho nền kinh tế, ngành Ngân hàng (VCB) và Bất động sản (VHM). VCB liên tục được nhắc đến với các thông tin tích cực (Article 30, 70, 163, 182, 217).
+4.  **Chính sách Tài khóa và Đầu tư:** Chính phủ đặt mục tiêu tăng trưởng GDP cao (Article 116, 213, 240), đẩy mạnh cải cách hành chính (Article 213, 240) và đầu tư hạ tầng (Article 91, 138, 161, 165, 240), hỗ trợ các ngành như Công nghiệp/Xây dựng (VCG) và Dịch vụ Hạ tầng (GAS).
+5.  **Tín hiệu Cổ phiếu Cụ thể:** VHM được khối ngoại mua ròng mạnh (Article 227) và có tin tức tích cực về kinh doanh (Article 86). MWG cũng được mua ròng (Article 223). FPT hưởng lợi từ việc đẩy mạnh AI (Article 226).
+6.  **Các Yếu tố Tiêu cực:** Mặc dù có những yếu tố tiêu cực như khối ngoại bán ròng (dù có dấu hiệu mua lại - Article 139, 175, 227), thị trường trái phiếu doanh nghiệp yếu (Article 184, 205), lo ngại lạm phát (Article 185), và rủi ro trong lĩnh vực năng lượng tái tạo (Article 201, 206), nhưng các yếu tố tích cực nội tại có vẻ chiếm ưu thế hơn trong ngắn hạn (ngày tiếp theo). Đặc biệt, HPG chịu áp lực bán ròng từ khối ngoại (Article 40, 51).
+
+**Kết luận:** Tổng hợp các yếu tố từ đồ thị tri thức cho thấy tâm lý thị trường chung và các ngành chủ chốt (Ngân hàng, Chứng khoán, Bất động sản) đang có nhiều thông tin hỗ trợ tích cực. Mặc dù có rủi ro từ việc khối ngoại bán ròng và một số yếu tố vĩ mô khác, khả năng ""sập giá"" đồng loạt trên toàn bộ danh mục đa dạng này vào ngày tiếp theo là thấp."
+2025-03-13T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên dữ liệu đồ thị tri thức đến ngày 2025-03-12, có nhiều yếu tố trái chiều ảnh hưởng đến danh mục cổ phiếu:
+
+**Yếu tố tích cực:**
+1.  **VN-Index Tăng Trưởng:** Thị trường chung (VN-Index) đang có xu hướng tăng mạnh, vượt các mốc quan trọng như 1300, 1325, 1330 (Article_54, Article_193, Article_217, Article_260), được hỗ trợ bởi thanh khoản cao từ dòng tiền nội (Article_117, Article_139, Article_193) và kỳ vọng nâng hạng thị trường (FTSE Russell, KRX) (Article_55, Article_221, Article_237, Article_260). Điều này có lợi cho các cổ phiếu Chứng khoán (SSI) và tạo tâm lý tích cực chung.
+2.  **Lãi suất Giảm:** Nhiều ngân hàng tiếp tục giảm lãi suất huy động (Article_132, Article_243, Article_261), tạo kỳ vọng giảm lãi suất cho vay, hỗ trợ doanh nghiệp và các ngành như Bất động sản (VHM) và Ngân hàng (VCB).
+3.  **Tin tức Cổ phiếu Cụ thể:**
+    *   VCB: Liên tục có tin tức tích cực về hoạt động, kết quả kinh doanh, hỗ trợ VN-Index và tăng vốn hóa (Article_70, Article_147, Article_163, Article_182, Article_217, Article_258, Article_260, Article_261).
+    *   VHM: Có tin tức về chốt deal lớn, kế hoạch mở bán (Article_86) và được khối ngoại mua ròng mạnh trong phiên gần đây (Article_227). Cổ phiếu Vingroup (liên quan VHM) góp phần kéo chỉ số (Article_193, Article_217).
+    *   SSI: Hưởng lợi trực tiếp từ kỳ vọng nâng hạng và thanh khoản thị trường cao (Article_139, Article_218, Article_221, Article_237).
+    *   MSN: Có tin tức tích cực liên quan đến nâng hạng và thay đổi quy tắc chỉ số (Article_244).
+    *   MWG: Được khối ngoại mua ròng mạnh bất chấp xu hướng bán chung (Article_223), có tin tức tích cực về thị trường bán lẻ (Article_146).
+4.  **Chính sách Hỗ trợ:** Chính phủ đặt mục tiêu tăng trưởng GDP cao, đẩy mạnh cải cách hành chính, đầu tư công và hạ tầng (Article_42, Article_80, Article_91, Article_116, Article_138, Article_161, Article_165, Article_171, Article_213, Article_240), có lợi cho các ngành Công nghiệp (VCG), Vật liệu cơ bản (HPG), Hạ tầng (GAS), Chế biến (GVR).
+
+**Yếu tố tiêu cực và Rủi ro:**
+1.  **Khối Ngoại Bán Ròng Mạnh:** Đây là yếu tố rủi ro lớn nhất. Khối ngoại liên tục bán ròng mạnh, đặc biệt là các cổ phiếu blue-chips trong các phiên gần đây (Article_51, Article_77, Article_117, Article_129, Article_160, Article_223, Article_260), ảnh hưởng trực tiếp đến các mã lớn trong danh mục như HPG, FPT, VCB, SSI, VHM. Mặc dù có phiên mua ròng trở lại (Article_139) hoặc mua ròng mã cụ thể (VHM - Article_227, MWG - Article_223), xu hướng bán chung vẫn đáng lo ngại.
+2.  **Thị trường Trái phiếu Doanh nghiệp (TPDN):** Thị trường TPDN vẫn trầm lắng, không có đợt phát hành mới trong tháng 2 và mua lại trước hạn giảm mạnh (Article_184, Article_205, Article_245). Điều này gây khó khăn về vốn cho các doanh nghiệp, đặc biệt là Bất động sản (VHM).
+3.  **Lạm phát và Giá cả:** CPI tháng 2 tăng (Article_185), giá một số mặt hàng như thịt heo tăng cao (Article_100, Article_112, Article_215), giá vàng biến động mạnh và lập đỉnh mới (Article_142, Article_164, Article_262). Điều này ảnh hưởng tiêu cực đến sức mua (MSN, MWG) và có thể gây áp lực lên chính sách tiền tệ.
+4.  **Rủi ro Ngành:** Có cảnh báo về rủi ro margin trên thị trường chứng khoán (Article_253), thanh tra ngân hàng ""sân sau"" (Article_207), rủi ro cho các nhà đầu tư năng lượng tái tạo (Article_201, Article_206), cảnh báo về sàn TMĐT (Article_247).
+5.  **Chính sách và Địa chính trị:** Mỹ rút khỏi JETP (Article_206), Việt Nam đối mặt thách thức từ chính sách Mỹ (Article_137).
+
+**Kết luận:** Mặc dù có nhiều tin tức tích cực hỗ trợ thị trường chung và một số cổ phiếu cụ thể (đặc biệt là VCB, SSI, VHM, MSN, MWG), áp lực bán ròng rất mạnh và dai dẳng từ khối ngoại là một rủi ro lớn có thể gây điều chỉnh mạnh. Thị trường TPDN yếu kém cũng là một yếu tố bất lợi. Tuy nhiên, dòng tiền nội mạnh mẽ và kỳ vọng nâng hạng vẫn đang nâng đỡ thị trường. Khả năng ""sập giá"" (giảm mạnh đột ngột trên diện rộng) trong ngày tiếp theo là không cao, nhưng rủi ro điều chỉnh và biến động mạnh là có thật do áp lực bán của khối ngoại. Do đó, dự đoán là ""No"" cho một cú sập toàn diện, nhưng cần thận trọng với biến động."
+2025-03-14T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-03-13, không có đủ bằng chứng cho thấy danh mục cổ phiếu sẽ ""sập giá"" vào ngày tiếp theo (2025-03-14). Lý do chính là:
+
+1.  **Tín hiệu tích cực từ thị trường chung (VN-Index):** Nhiều bài báo gần đây (Art_139, Art_175, Art_193, Art_217, Art_260, Art_276) cho thấy VN-Index đang trong xu hướng tăng, vượt các mốc quan trọng (1300, 1320, 1330), thanh khoản cao và có kỳ vọng nâng hạng thị trường (Art_55, Art_175, Art_221, Art_237, Art_260, Art_276, Art_283). Điều này tạo tâm lý lạc quan chung.
+2.  **Tín hiệu tích cực từ các cổ phiếu/ngành chủ chốt trong danh mục:**
+    *   **VCB (Ngân hàng):** Liên tục nhận tín hiệu tích cực về hoạt động kinh doanh, vai trò dẫn dắt thị trường, giảm lãi suất, tái cơ cấu ngân hàng yếu kém và lập kỷ lục vốn hóa (Art_147, Art_163, Art_182, Art_216, Art_217, Art_258, Art_260, Art_261).
+    *   **SSI (Chứng khoán):** Hưởng lợi trực tiếp từ kỳ vọng nâng hạng thị trường, vận hành KRX và thanh khoản thị trường cao (Art_139, Art_218, Art_221, Art_237, Art_276, Art_283). Chủ tịch SSI gặp gỡ FTSE/BlackRock là tín hiệu rất tích cực (Art_283).
+    *   **VHM (Bất động sản):** Có tín hiệu mua ròng mạnh từ khối ngoại (Art_227) và cổ phiếu tăng trần (Art_275), bất chấp các tín hiệu trái chiều của ngành BĐS nói chung.
+    *   **MWG (Bán lẻ):** Được khối ngoại mua ròng mạnh (Art_223) và có tín hiệu tích cực (Art_146).
+    *   **MSN (Tiêu dùng cơ bản):** Có tín hiệu tích cực đón sóng nâng hạng (Art_244).
+3.  **Các chính sách hỗ trợ:** Nhiều thông tin về việc giảm lãi suất huy động/cho vay (Art_87, Art_89, Art_132, Art_222, Art_243, Art_261), thúc đẩy tăng trưởng GDP, cải cách hành chính (Art_213, Art_240), phát triển hạ tầng (Art_91, Art_138, Art_161, Art_165, Art_171, Art_279) và nhà ở xã hội (Art_155, Art_170, Art_273) tạo môi trường vĩ mô thuận lợi.
+4.  **Các tín hiệu tiêu cực chưa đủ áp đảo:** Mặc dù có các yếu tố tiêu cực như khối ngoại bán ròng chung (Art_51, Art_77, Art_117, Art_129, Art_160, Art_223, Art_260) và bán ròng cụ thể HPG, FPT (Art_40, Art_51), thị trường TPDN trầm lắng (Art_184, Art_205, Art_245), rủi ro margin (Art_253), lo ngại về AI (Art_197), vấn đề năng lượng tái tạo (Art_201, Art_206), lạm phát (Art_185), và rò rỉ dữ liệu (Art_104), nhưng các tín hiệu tích cực từ VN-Index và các cổ phiếu trụ cột có vẻ đang chiếm ưu thế trong ngắn hạn theo thông tin từ đồ thị.
+
+Kết luận: Dựa trên các sự kiện và tác động được ghi nhận trong đồ thị tri thức đến ngày 2025-03-13, xu hướng chung của thị trường và các cổ phiếu chủ chốt trong danh mục vẫn đang tích cực, không đủ cơ sở để dự đoán một cú ""sập giá"" vào ngày tiếp theo."
+2025-03-17T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-03-16, dự đoán danh mục cổ phiếu sẽ không ""sập giá"" vào ngày tiếp theo (2025-03-17). Lý do chính là các tín hiệu tích cực gần đây có vẻ chiếm ưu thế hơn cho một dự báo ngắn hạn:
+1.  **Động lực thị trường chung (VN-Index):** Nhiều thông tin cho thấy VN-Index đang có xu hướng tăng (vượt 1300 điểm - Art_321, vượt 1325 điểm - Art_193, hướng tới các mốc cao hơn - Art_302, Art_193) với thanh khoản cao (Art_321, Art_193), bất chấp việc khối ngoại bán ròng ở một số thời điểm (Art_302, Art_223, Art_260). Kỳ vọng nâng hạng thị trường cũng là yếu tố hỗ trợ mạnh mẽ (Art_319, Art_221, Art_237, Art_260, Art_283). Các quỹ ETF và dòng tiền nội được đề cập là động lực (Art_175, Art_321).
+2.  **Tín hiệu tích cực ngành/cổ phiếu cụ thể:**
+    *   **Ngân hàng (VCB):** Vẫn được xem là nhóm dẫn dắt thị trường (Art_320), hưởng lợi từ lãi suất huy động giảm (Art_337, Art_243, Art_222). VCB cụ thể được nhắc đến rất tích cực với việc hỗ trợ VN-Index, lập kỷ lục vốn hóa, và kết quả kinh doanh tốt (Art_217, Art_258, Art_260, Art_182, Art_163). Việc tái cơ cấu ngân hàng yếu kém cũng có thể là tín hiệu tốt cho hệ thống (Art_216).
+    *   **Chứng khoán (SSI):** Hưởng lợi trực tiếp từ thanh khoản thị trường cao và kỳ vọng nâng hạng (Art_321, Art_339, Art_221, Art_237, Art_283). SSI được nhắc đến tích cực trong việc thúc đẩy nâng hạng và hé lộ thông tin thị trường (Art_218, Art_221, Art_237, Art_283).
+    *   **Bất động sản (VHM) & KCN (GVR):** Có tín hiệu hút dòng tiền (Art_320). VHM được khối ngoại mua ròng mạnh (Art_227) và có thông tin tích cực về kế hoạch kinh doanh (Art_86). Hạ tầng được đẩy mạnh (Art_309, Art_343) hỗ trợ KCN.
+    *   **Vật liệu cơ bản (HPG) & Công nghiệp/Xây dựng (VCG):** Hưởng lợi từ ""sóng"" đầu tư công và đẩy mạnh hạ tầng (Art_329, Art_343, Art_309). HPG được quỹ ETF mua vào (Art_319).
+    *   **Tiêu dùng cơ bản (MSN):** Có thông tin đón sóng nâng hạng (Art_244).
+    *   **Bán lẻ (MWG):** Được khối ngoại mua ròng (Art_223).
+3.  **Kinh tế vĩ mô:** Dòng vốn FDI tăng mạnh (Art_309), mục tiêu tăng trưởng GDP cao (Art_310), thỏa thuận kinh tế VN-Hoa Kỳ (Art_324), thúc đẩy hạ tầng/cải cách hành chính (Art_310, Art_340, Art_343) là các yếu tố hỗ trợ niềm tin. Lãi suất huy động liên tục giảm (Art_243, Art_337) tạo môi trường thuận lợi cho đầu tư.
+
+Mặc dù có những rủi ro như thị trường TPDN trầm lắng (Art_184, Art_205, Art_245), dự báo VND có thể suy yếu cuối năm (Art_312), rủi ro tín dụng BĐS (Art_313), lo ngại về AI và việc làm (Art_197), rủi ro margin (Art_253), và khối ngoại bán ròng ở một số mã/phiên (Art_223, Art_260, Art_302), những yếu tố này dường như chưa đủ mạnh để gây ra một cú ""sập giá"" toàn diện cho cả danh mục đa dạng này ngay trong ngày giao dịch tiếp theo, dựa trên thông tin có trong đồ thị. Các tín hiệu tích cực về dòng tiền, kỳ vọng nâng hạng và sức mạnh của một số nhóm ngành chủ chốt (Ngân hàng, Chứng khoán, BĐS KCN, Xây dựng) có vẻ chiếm ưu thế hơn trong ngắn hạn."
+2025-03-18T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều thông tin tích cực hỗ trợ thị trường chung và một số ngành cụ thể như Ngân hàng (VCB), Thép (HPG), Xây dựng (VCG), Bất động sản KCN (GVR) nhờ kỳ vọng nâng hạng, KRX, và đẩy mạnh đầu tư công, các yếu tố tiêu cực gần đây tạo ra rủi ro đáng kể cho danh mục:
+
+1.  **Áp lực bán ròng từ khối ngoại và ETF:** Nhiều bài báo gần đây (Article_223, 260, 302, 319) đề cập đến việc khối ngoại bán ròng mạnh, đặc biệt nhắm vào các cổ phiếu Bluechips, bao gồm cả VIC/VHM (liên quan đến VHM trong danh mục) và SHB (Article_319), dù có mua ròng MWG (Article_223) hay VHM (Article_227) ở một số phiên. Rủi ro từ dòng vốn ETF cũng được đề cập (Article_253).
+2.  **Thông tin tiêu cực cụ thể cho cổ phiếu trong danh mục:** FPT đối mặt nguy cơ rời top 3 vốn hóa (Article_355), tạo áp lực lên cổ phiếu này. VHM bị ETF bán ra (Article_319).
+3.  **Rủi ro ngành Bán lẻ (MSN, MWG):** Các sàn TMĐT tăng phí mạnh gây khó khăn cho người bán và doanh nghiệp bán lẻ (Article_354).
+4.  **Rủi ro thị trường chung:**
+    *   Thị trường trái phiếu doanh nghiệp trầm lắng, không có đợt phát hành mới trong tháng 2 (Article_184, 205, 245), cho thấy căng thẳng về nguồn vốn.
+    *   Giá vàng liên tục lập kỷ lục (Article_284, 314, 361), có thể hút dòng tiền khỏi chứng khoán.
+    *   Biến động tỷ giá USD (Article_350, 331) và dự báo VND suy yếu (Article_312) gây bất ổn.
+    *   Lạm phát (CPI tháng 2 tăng - Article_185) và các cảnh báo về rủi ro margin (Article_253), nợ xấu ngân hàng (Article_300), lừa đảo tài chính (Article_265, 312, 363) vẫn hiện hữu.
+    *   Mỹ rút khỏi JETP (Article_206) ảnh hưởng tiêu cực đến kỳ vọng về chuyển đổi năng lượng và FDI liên quan.
+    *   Lo ngại về AI ảnh hưởng việc làm (Article_197).
+5.  **Tâm lý thị trường:** Mặc dù VN-Index tăng điểm, nhiều chuyên gia dự báo có thể có rung lắc, điều chỉnh ngắn hạn (Article_200, 238).
+
+Tổng hợp lại, mặc dù có các yếu tố tích cực, sự tích tụ của các tin tức tiêu cực gần đây đối với các cổ phiếu lớn trong danh mục (FPT, VHM) và các rủi ro hệ thống (dòng vốn ngoại, TPDN, tỷ giá, lạm phát, nợ xấu) tạo ra nguy cơ cao về một đợt điều chỉnh mạnh hoặc ""sập giá"" trong ngày tiếp theo."
+2025-03-19T01:00:00+07:00,Yes,"```
+Crash: Yes
+Explanation: Dựa trên dữ liệu đồ thị tri thức đến ngày 2025-03-18, có nhiều yếu tố tiêu cực cho thấy khả năng thị trường điều chỉnh giảm (""sập giá"") trong ngày tiếp theo (2025-03-19). Cụ thể:
+1.  **Xu hướng thị trường gần nhất:** VN-Index đã điều chỉnh giảm vào ngày 2025-03-18, cho thấy tâm lý thận trọng của nhà đầu tư (Article_366).
+2.  **Áp lực bán từ khối ngoại:** Khối ngoại tiếp tục bán ròng mạnh trong phiên 2025-03-18 (Article_366), tiếp nối xu hướng bán ròng đột biến trước đó (Article_260, Article_223), tạo áp lực giảm giá lên thị trường chung và các cổ phiếu bluechip trong danh mục. Mặc dù có lực mua ròng SHB (Article_365) và trước đó là MWG (Article_223), VHM (Article_227), HPG (Article_319), nhưng áp lực bán tổng thể vẫn đáng kể.
+3.  **Rủi ro hệ thống:** Các cảnh báo về rủi ro nợ xấu ngân hàng có nguy cơ gia tăng (Article_383, Article_300), rủi ro margin và dòng vốn ETF (Article_253), và thị trường trái phiếu doanh nghiệp trầm lắng, không có đợt phát hành mới trong tháng 2 (Article_205, Article_245, Article_184) vẫn hiện hữu, có thể tác động tiêu cực đến ngành tài chính (SSI, VCB) và bất động sản (VHM).
+4.  **Lừa đảo tài chính:** Các vụ lừa đảo tài chính gia tăng gây thiệt hại lớn (Article_377) và các vụ việc liên quan đến giao dịch ngân hàng (Article_265, Article_301) có thể ảnh hưởng tiêu cực đến niềm tin vào hệ thống tài chính và ngân hàng (VCB, SSI).
+5.  **Lạm phát và Giá cả:** Giá vàng liên tục lập đỉnh kỷ lục (Article_376, Article_284) cho thấy nhà đầu tư có thể tìm đến kênh trú ẩn an toàn, rút tiền khỏi chứng khoán. Biến động giá nông sản, đặc biệt giá tiêu tăng kỷ lục (Article_370) cũng phản ánh áp lực lạm phát (Article_185). Đồng USD biến động và tỷ giá NDT tăng cũng gây bất ổn (Article_350).
+6.  **Khó khăn của doanh nghiệp:** Mặc dù có các chính sách hỗ trợ, doanh nghiệp vẫn đối mặt tình trạng ""khát vốn"" (Article_368), khó khăn trong việc mua nhà của người trẻ (Article_364), và sàn TMĐT tăng phí gây khó cho người bán nhỏ (Article_354).
+
+Mặc dù có các yếu tố tích cực như kỳ vọng nâng hạng thị trường (Article_221, Article_237, Article_260, Article_283), dòng tiền nội mạnh (Article_302), chính sách thúc đẩy tín dụng (Article_368), đầu tư công (Article_329), và sự lạc quan của doanh nghiệp Mỹ (Article_367), nhưng các yếu tố tiêu cực ngắn hạn, đặc biệt là áp lực bán ròng mạnh từ khối ngoại và tâm lý thận trọng sau phiên giảm điểm gần nhất, có vẻ chiếm ưu thế hơn cho dự đoán ngày giao dịch tiếp theo.
+```"
+2025-03-20T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Dự đoán dựa trên các yếu tố tiêu cực gần đây trong đồ thị tri thức:
+1.  **Áp lực bán ròng mạnh từ khối ngoại:** Nhiều bài báo gần đây (đặc biệt là Article_391 ngày 19/3 ghi nhận mức bán ròng kỷ lục 1.500 tỷ đồng, Article_390 ngày 19/3 về FPT, Article_366 ngày 18/3) cho thấy khối ngoại đang bán ròng mạnh mẽ, đặc biệt nhắm vào các cổ phiếu bluechips. Danh mục này chứa nhiều cổ phiếu bluechips (FPT, VCB, VHM, HPG, MSN, MWG), do đó có khả năng bị ảnh hưởng tiêu cực mạnh. FPT bị bán ròng mạnh cụ thể (Article_390).
+2.  **Tâm lý thị trường thận trọng/rung lắc:** VN-Index có dấu hiệu điều chỉnh giảm và rung lắc (Article_366, Article_389), nhà đầu tư tỏ ra thận trọng.
+3.  **Rủi ro ngành Ngân hàng:** Có nhiều thông tin tiêu cực liên quan đến ngành ngân hàng như nợ xấu có nguy cơ tăng (Article_383, Article_300), áp lực giảm NIM (Article_312), các vụ việc liên quan đến lừa đảo/sai phạm (Article_265, Article_301, Article_377), và rủi ro margin/ETF (Article_253). VCB là một phần quan trọng của danh mục.
+4.  **Thị trường Trái phiếu Doanh nghiệp (TPDN) trầm lắng:** Các bài báo (Article_205, Article_245, Article_184) cho thấy thị trường TPDN gặp khó khăn, không có đợt phát hành mới trong tháng 2 và hoạt động mua lại giảm, ảnh hưởng đến kênh huy động vốn của doanh nghiệp và tâm lý thị trường tài chính nói chung.
+5.  **Lo ngại lạm phát/bất ổn vĩ mô:** Giá vàng liên tục lập kỷ lục (Article_284, Article_314, Article_376), CPI tăng (Article_185), tỷ giá biến động (Article_350) là những dấu hiệu tiềm ẩn rủi ro lạm phát và bất ổn, có thể tác động tiêu cực đến thị trường chứng khoán.
+
+Mặc dù có một số thông tin tích cực như kỳ vọng nâng hạng thị trường, VHM được mua ròng mạnh (Article_391), triển vọng ngành xây dựng (VCG) từ đầu tư công, và các mục tiêu tăng trưởng GDP cao của chính phủ, nhưng áp lực bán ròng rất mạnh từ khối ngoại trong phiên gần nhất (19/3) cùng với các rủi ro tiềm ẩn trong ngành ngân hàng và tâm lý thận trọng chung có khả năng cao sẽ gây áp lực giảm giá lên danh mục trong ngày tiếp theo."
+2025-03-21T01:00:00+07:00,No,"```
+Crash: No
+Explanation: Mặc dù có áp lực bán ròng mạnh từ khối ngoại trong những ngày gần đây (đặc biệt ảnh hưởng tiêu cực đến FPT - Article_390, Article_418 và có thể cả VHM, HPG qua ETF - Article_319, Article_391, Article_417), thị trường chung (VN-Index) vẫn cho thấy sự tích cực và kỳ vọng tăng trưởng (Article_389, Article_321, Article_193) nhờ dòng tiền nội mạnh mẽ và kỳ vọng nâng hạng thị trường (KRX, FTSE - Article_221, Article_237, Article_283, Article_319, Article_389, Article_408).
+
+Nhiều cổ phiếu trong danh mục có thông tin hỗ trợ riêng:
+*   **VCB:** Có nhiều thông tin tích cực về hiệu quả kinh doanh, giảm lãi suất huy động, kế hoạch lợi nhuận cao và tiềm năng được cấp room tín dụng cao (Article_182, Article_258, Article_346, Article_423).
+*   **SSI:** Hưởng lợi trực tiếp từ kỳ vọng vận hành hệ thống KRX và nâng hạng thị trường (Article_221, Article_237, Article_283, Article_408).
+*   **VHM:** Dù bị khối ngoại bán ròng trong một số phiên ETF cơ cấu (Article_319), nhưng cũng được mua ròng mạnh ở phiên khác (Article_391) và có thông tin tích cực về hoạt động kinh doanh (Article_86, Article_275).
+*   **MSN:** Có thông tin tích cực liên quan đến việc đón sóng nâng hạng và thay đổi quy tắc chỉ số (Article_244).
+*   **MWG:** Được khối ngoại mua ròng bất chấp xu hướng bán chung (Article_223).
+*   **VCG:** Hưởng lợi từ việc đẩy mạnh đầu tư công và hạ tầng (Article_329, Article_343).
+*   **HPG:** Dù bị bán ròng bởi khối ngoại gần đây (Article_51), nhưng cũng được quỹ ETF mua vào (Article_319) và hưởng lợi từ đầu tư công (Article_329).
+
+Các yếu tố vĩ mô như chính phủ thúc đẩy tăng trưởng GDP, gỡ khó cho doanh nghiệp, đẩy mạnh đầu tư công (Article_213, Article_310, Article_340, Article_395) và việc giảm lãi suất huy động (Article_222, Article_243, Article_303, Article_337) cũng tạo môi trường hỗ trợ.
+
+Do đó, dù áp lực bán của khối ngoại là đáng kể và có thể gây điều chỉnh, các yếu tố tích cực nội tại và kỳ vọng nâng hạng có khả năng giúp thị trường và danh mục này không bị ""sập giá"" trong ngày tiếp theo.
+```"
+2025-03-24T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều thông tin tích cực dài hạn như kỳ vọng nâng hạng thị trường (Articles 55, 175, 221, 237, 260, 283, 319, 321, 362, 389, 408, 451), vận hành hệ thống KRX (Articles 221, 237, 362), và các chính sách hỗ trợ kinh tế, hạ tầng của chính phủ (Articles 42, 80, 91, 138, 161, 165, 213, 240, 279, 280, 309, 310, 329, 340, 343, 371, 378, 395, 441, 442, 475), các yếu tố tiêu cực ngắn hạn gần đây có vẻ chiếm ưu thế và có thể gây áp lực giảm giá mạnh lên danh mục vào ngày tiếp theo (2025-03-22).
+
+1.  **Áp lực bán ròng mạnh và liên tục từ khối ngoại:** Đây là yếu tố nổi bật nhất trong các dữ liệu gần đây. Nhiều mã trong danh mục và toàn thị trường liên tục bị bán ròng mạnh (Articles 51, 77, 117, 129, 160, 175, 223, 260, 302, 366, 390, 391, 417, 418, 424, 444). Đặc biệt, FPT bị bán ròng rất mạnh (Articles 390, 418), và thị trường chung ghi nhận các phiên bán ròng kỷ lục (Article 391, 417). Dù có phiên mua ròng VHM (Articles 227, 391) hay MWG (Article 223), xu hướng bán ròng tổng thể rất mạnh và gây áp lực lớn lên chỉ số và tâm lý nhà đầu tư.
+2.  **VN-Index điều chỉnh sau chuỗi tăng dài:** Thị trường đã có chuỗi tăng điểm kéo dài (8 tuần - Article 444) và đang có dấu hiệu điều chỉnh, rung lắc (Articles 366, 389, 424, 444, 471). Tâm lý thận trọng gia tăng (Article 366, 444). Việc điều chỉnh sau một đợt tăng nóng là bình thường nhưng kết hợp với bán ròng mạnh từ khối ngoại có thể dẫn đến một phiên giảm sâu.
+3.  **Rủi ro thị trường và biến động:** Các yếu tố như rủi ro margin (Article 253), biến động tỷ giá (Articles 350, 425), giá vàng lập kỷ lục gây tâm lý FOMO nhưng cũng tiềm ẩn rủi ro điều chỉnh (Articles 284, 314, 361, 376, 416, 428, 463, 480), và các vụ việc tiêu cực (lừa đảo tài chính Article 377, 470; vụ Phúc Sơn Article 401) có thể tác động tiêu cực đến tâm lý chung.
+4.  **Thị trường TPDN trầm lắng:** Việc thị trường trái phiếu doanh nghiệp không có đợt phát hành mới trong tháng 2 và mua lại giảm mạnh (Articles 184, 205, 245) cho thấy kênh huy động vốn này đang gặp khó khăn, có thể ảnh hưởng gián tiếp đến các doanh nghiệp, đặc biệt là bất động sản và ngân hàng.
+5.  **Áp lực lên một số ngành cụ thể:** Ngành ngân hàng đối mặt nợ xấu và áp lực TPDN (Articles 300, 383, 433). Ngành công nghệ thông tin (FPT) bị bán ròng mạnh (Articles 390, 418).
+
+Kết hợp các yếu tố trên, đặc biệt là áp lực bán ròng rất mạnh từ khối ngoại trong những phiên gần nhất và dấu hiệu điều chỉnh của thị trường sau chuỗi tăng dài, khả năng danh mục cổ phiếu trên ""sập giá"" (giảm mạnh) trong ngày giao dịch tiếp theo là cao."
+2025-03-25T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Lý do chính cho dự đoán ""sập giá"" là áp lực bán ròng rất mạnh và liên tục từ khối ngoại trong những ngày gần nhất (đặc biệt là các báo cáo từ ngày 19/3 đến 22/3 như Article_390, Article_391, Article_417, Article_418, Article_424, Article_444, Article_501). Hoạt động bán ròng này nhắm vào các cổ phiếu vốn hóa lớn (Bluechips), bao gồm cả FPT (Article_390, Article_418) và có thể ảnh hưởng tiêu cực đến các cổ phiếu ngân hàng và thị trường chung. Mặc dù có một số cổ phiếu như VHM và MWG được mua ròng ngược dòng (Article_223, Article_227, Article_391), lực bán tổng thể của khối ngoại là rất lớn (kỷ lục 1.500 tỷ đồng phiên 19/3 - Article_391; gần 1.500 tỷ phiên 20/3 - Article_417).
+
+Thêm vào đó, thị trường chứng khoán Việt Nam (VN-Index) đã có dấu hiệu điều chỉnh (Article_366, Article_444, Article_471, Article_501) sau một chuỗi tăng điểm kéo dài (8 tuần - Article_444), làm tăng nguy cơ giảm điểm tiếp theo trong ngắn hạn. Các yếu tố tiêu cực tiềm ẩn khác bao gồm rủi ro margin (Article_253), thị trường trái phiếu doanh nghiệp trầm lắng (Article_184, Article_205, Article_245), và lo ngại về nợ xấu ngân hàng gia tăng (Article_300, Article_383, Article_433).
+
+Mặc dù có nhiều thông tin tích cực về dài hạn như kỳ vọng nâng hạng thị trường, vận hành KRX, và các chính sách hỗ trợ kinh tế, áp lực bán mạnh từ khối ngoại và tâm lý thận trọng của nhà đầu tư trong bối cảnh thị trường điều chỉnh là yếu tố rủi ro chính có thể gây ra sự sụt giảm giá đáng kể (""sập giá"") cho danh mục trong ngày giao dịch tiếp theo."
+2025-03-26T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều tin tức tích cực về kỳ vọng nâng hạng thị trường (Article_432, Article_514, Article_516), vận hành hệ thống KRX (Article_221, Article_237), và sự lạc quan về một số cổ phiếu cụ thể như VCB, VHM, MWG, MSN, SSI, yếu tố tiêu cực nổi bật và gần đây nhất là áp lực bán ròng rất mạnh và liên tục từ khối ngoại. Các bài báo gần đây (Article_417, Article_418, Article_424, Article_444, Article_501, đặc biệt là Article_391 báo cáo bán ròng kỷ lục 1.500 tỷ đồng vào ngày 19/3 và Article_390, Article_418 về việc FPT bị bán mạnh) cho thấy dòng vốn ngoại đang rút ra đáng kể. Áp lực bán ròng mạnh này, dù VN-Index có thể vẫn được nâng đỡ bởi một vài cổ phiếu lớn (Article_500), tạo ra rủi ro điều chỉnh chung cho thị trường và danh mục trong phiên giao dịch tiếp theo. Các yếu tố tiêu cực khác bao gồm lo ngại về nợ xấu ngân hàng gia tăng (Article_300, Article_433), thị trường TPDN trầm lắng (Article_184, Article_205), lạm phát (CPI tăng - Article_185), và tỷ giá USD/VND tăng (Article_425, Article_517). Sự thận trọng của nhà đầu tư cũng được đề cập (Article_366). Tổng hợp lại, áp lực bán ròng mạnh từ khối ngoại là yếu tố rủi ro lớn nhất có thể dẫn đến việc ""sập giá"" trong ngày tiếp theo."
+2025-03-27T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều thông tin tích cực về triển vọng nâng hạng thị trường (Article_55, 221, 237, 283, 319, 389, 408, 451, 514, 516, 532), kỳ vọng hệ thống KRX vận hành (Article_221, 237, 362, 471, 532), và dòng tiền nội mạnh mẽ (Article_117, 139, 193, 302, 321, 471), áp lực bán ròng rất mạnh và liên tục từ khối ngoại trong những ngày gần đây là yếu tố rủi ro lớn nhất. Cụ thể:
+1.  **Bán ròng mạnh từ khối ngoại:** Nhiều bài báo gần đây (đặc biệt từ 19/3 đến 22/3 và 25/3) liên tục nhấn mạnh việc khối ngoại bán ròng mạnh, lên tới hàng nghìn tỷ đồng mỗi phiên, nhắm vào cả các cổ phiếu bluechips (Article_51, 223, 260, 302, 319, 366, 391, 417, 424, 444, 501, 532). Cổ phiếu FPT bị bán ròng đặc biệt mạnh (Article_390, 418).
+2.  **Dấu hiệu điều chỉnh của thị trường:** VN-Index đã có dấu hiệu điều chỉnh sau chuỗi tăng dài 8 tuần (Article_444, 366, 471), và một số dự báo cho rằng thị trường có thể rung lắc (Article_200). Phiên 19/3 ghi nhận khối ngoại bán ròng kỷ lục 1.500 tỷ (Article_391), phiên 20/3 bán ròng gần 1.500 tỷ (Article_417), cho thấy áp lực chốt lời/rút vốn lớn.
+3.  **Rủi ro ngành Ngân hàng và Tài chính:** Vụ án Vạn Thịnh Phát - SCB (Article_525) có thể ảnh hưởng tiêu cực đến tâm lý ngành tài chính. Lo ngại về nợ xấu gia tăng và áp lực TPDN cũng được đề cập (Article_300, 433).
+4.  **Thị trường Trái phiếu Doanh nghiệp yếu:** Việc thị trường TPDN không có đợt phát hành mới trong tháng 2 và mua lại trước hạn giảm mạnh (Article_184, 205, 245) cho thấy kênh huy động vốn này đang gặp khó khăn, có thể ảnh hưởng đến các doanh nghiệp.
+5.  **Biến động tỷ giá và giá vàng:** Tỷ giá USD tăng cao (Article_425, 503, 517) và giá vàng liên tục lập kỷ lục (Article_284, 314, 376, 416, 428, 463, 502) tạo ra tâm lý bất ổn và có thể hút dòng tiền khỏi chứng khoán.
+
+Mặc dù có những điểm sáng ở một số cổ phiếu như VHM (Article_391), MWG (Article_223, 498, 529), VCB (Article_217, 258, 423) và kỳ vọng vào các yếu tố trung hạn, áp lực bán ròng cực mạnh từ khối ngoại trong những phiên gần nhất và dấu hiệu điều chỉnh của thị trường chung cho thấy khả năng cao danh mục sẽ tiếp tục giảm giá (""sập giá"") vào ngày giao dịch tiếp theo (2025-03-27)."
+2025-03-28T01:00:00+07:00,No,"Crash: No
+Explanation: Dựa trên đồ thị tri thức được cung cấp đến ngày 2025-03-27, có nhiều yếu tố tích cực hỗ trợ cho danh mục cổ phiếu này hơn là tiêu cực, làm giảm khả năng xảy ra ""sập giá"" vào ngày tiếp theo (2025-03-28).
+
+1.  **Tín hiệu tích cực chung cho thị trường:**
+    *   Kỳ vọng nâng hạng thị trường chứng khoán Việt Nam (TTCK VN) và vận hành hệ thống KRX được nhắc đến nhiều lần với tác động TÍCH CỰC (Articles 559, 514, 451, 432, 389, 283, 237, 221, 55), đặc biệt tác động tích cực đến nhóm cổ phiếu Chứng khoán (SSI) và Ngân hàng (VCB).
+    *   Dòng tiền nội mạnh mẽ và thanh khoản cao được ghi nhận (Articles 117, 321, 139), dù có áp lực bán ròng từ khối ngoại. VN-Index vẫn giữ được đà tăng hoặc điều chỉnh nhẹ (Articles 514, 193, 54).
+    *   Chính phủ thúc đẩy tăng trưởng kinh tế, đầu tư công, hạ tầng, FDI và cải cách thể chế (Articles 42, 80, 213, 310, 340, 441, 484, 547, 560, 475, 485).
+
+2.  **Tín hiệu tích cực cụ thể cho các cổ phiếu trong danh mục:**
+    *   **FPT (Công nghệ):** Có dấu hiệu được khối ngoại và nhà đầu tư trong nước mua trở lại (Article 558, 2025-03-27), đảo ngược xu hướng bán ròng trước đó. Hưởng lợi từ xu hướng chuyển đổi số và AI (Articles 547, 226).
+    *   **SSI (Chứng khoán):** Hưởng lợi trực tiếp từ kỳ vọng nâng hạng, KRX và thanh khoản thị trường cao (Articles 559, 557, 451, 432, 283, 237, 221). Được CTCK khuyến nghị mua (Article 557).
+    *   **VCB (Ngân hàng):** Được kỳ vọng cấp room tín dụng cao (Article 423), có kết quả kinh doanh tốt (Article 182), hưởng lợi từ nâng hạng (Article 559) và hỗ trợ VN-Index (Articles 217, 500). Lãi suất huy động giảm cũng là yếu tố hỗ trợ (Articles 87, 132, 222, 425).
+    *   **VHM (Bất động sản):** Cổ phiếu tăng mạnh, được khối ngoại mua ròng (Articles 86, 391, 227, 508). Hưởng lợi từ việc Vingroup nâng đỡ thị trường (Article 500).
+    *   **HPG (Vật liệu cơ bản):** Được quỹ ETF mua (Article 319). Hưởng lợi gián tiếp từ đầu tư công và xây dựng hạ tầng (Articles 329, 475, 485). Tuy nhiên, vẫn có áp lực bán ròng từ khối ngoại (Articles 51, 40).
+    *   **GAS (Dịch vụ Hạ tầng):** Ít thông tin trực tiếp, nhưng hưởng lợi từ tăng trưởng kinh tế chung và đảm bảo cung ứng điện (liên quan EVN - Article 166).
+    *   **MSN (Tiêu dùng cơ bản):** Hưởng lợi từ sóng nâng hạng và thay đổi quy tắc chỉ số (Article 244).
+    *   **MWG (Bán lẻ):** Được khối ngoại mua ròng (Article 223), nằm trong danh mục khuyến nghị (Articles 498, 557, 146). Hưởng lợi từ kích cầu nội địa (Article 371).
+    *   **GVR (Chế biến):** Hưởng lợi từ việc đẩy mạnh KCN và thu hút FDI (Article 560). Có trong danh mục cổ phiếu cần quan tâm (Article 529).
+    *   **VCG (Công nghiệp):** Hưởng lợi trực tiếp từ việc đẩy mạnh đầu tư công và các dự án hạ tầng (Articles 329, 475, 485, 563).
+
+3.  **Các yếu tố tiêu cực:**
+    *   Khối ngoại liên tục bán ròng mạnh (Articles 51, 117, 129, 160, 223, 302, 366, 391, 417, 424, 444, 501, 532), dù có phiên mua ròng trở lại (Article 139). Đây là rủi ro chính.
+    *   Rủi ro lạm phát từ giá hàng hóa (vàng, nông sản) và tỷ giá USD tăng (Articles 52, 65, 191, 517, 284, 314, 416, 502).
+    *   Thị trường TPDN trầm lắng, tiềm ẩn rủi ro (Articles 184, 205, 245, 433).
+    *   Nợ xấu ngân hàng có nguy cơ tăng (Articles 300, 383, 433).
+    *   Vụ án Vạn Thịnh Phát/SCB gây tâm lý tiêu cực (Article 525).
+    *   Căng thẳng thương mại quốc tế (Article 494).
+
+**Kết luận:** Mặc dù có những rủi ro đáng kể (đặc biệt là áp lực bán ròng của khối ngoại và rủi ro vĩ mô như lạm phát, tỷ giá), các tín hiệu tích cực từ kỳ vọng nâng hạng, hệ thống KRX, dòng tiền nội, các chính sách hỗ trợ của chính phủ và động lực riêng của nhiều cổ phiếu trong danh mục (FPT, SSI, VCB, VHM, MWG, VCG) có vẻ chiếm ưu thế hơn trong ngắn hạn (ngày tiếp theo) theo dữ liệu được cung cấp. Do đó, khả năng ""sập giá"" toàn danh mục là thấp."
+2025-03-31T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều thông tin tích cực về vĩ mô như kỳ vọng nâng hạng thị trường (Articles 55, 175, 221, 237, 283, 319, 408, 451, 514, 516, 532, 559, 620), lãi suất huy động giảm (Articles 44, 87, 89, 132, 183, 222, 243, 303, 337, 425, 517, 542), và dòng tiền nội mạnh mẽ (Articles 117, 175, 321, 471), các yếu tố tiêu cực gần đây có vẻ chiếm ưu thế và tạo rủi ro giảm giá mạnh trong ngắn hạn cho danh mục:
+
+1.  **Áp lực bán ròng rất mạnh từ khối ngoại:** Nhiều bài báo gần đây (đặc biệt từ giữa tháng 3 trở đi) liên tục nhấn mạnh việc khối ngoại bán ròng mạnh và kỷ lục, ảnh hưởng tiêu cực đến thị trường chung và các cổ phiếu bluechip (Articles 117, 129, 160, 175, 223, 260, 302, 366, 391, 417, 418, 424, 444, 501, 532, 600). Cụ thể, FPT và HPG trong danh mục bị bán ròng mạnh (Articles 51, 390, 418, 568). Mặc dù có phiên mua ròng VHM, MWG, HPG (qua ETF), xu hướng bán ròng tổng thể rất lớn là tín hiệu rủi ro cao.
+2.  **Lo ngại về lạm phát và bất ổn giá cả:** Giá vàng liên tục lập kỷ lục (Articles 284, 314, 416, 428, 502, 565, 598, 619) cho thấy dòng tiền tìm đến tài sản trú ẩn và tâm lý lo ngại lạm phát. Giá thịt heo tăng nóng (Articles 100, 112, 215, 286, 582). CPI tháng 2 tăng (Article 185). Biến động giá nông sản, năng lượng (Articles 426, 493, 554, 565). Những yếu tố này gây áp lực lên chi phí doanh nghiệp và tâm lý thị trường.
+3.  **Rủi ro từ thị trường TPDN và hệ thống ngân hàng:** Mặc dù TPDN tháng 3 bùng nổ (Article 572), nhưng tháng 2 trầm lắng (Article 184, 205) và áp lực đáo hạn quý 2 lớn (Article 585). Nợ xấu ngân hàng có nguy cơ tăng và nhiều tồn tại trong hoạt động tín dụng được chỉ ra (Articles 300, 383, 433). Các vụ việc liên quan đến ngân hàng (Vạn Thịnh Phát - SCB, Phúc Sơn) cũng ảnh hưởng tiêu cực đến tâm lý (Articles 401, 525).
+4.  **Tác động tiêu cực từ thị trường toàn cầu và chính sách:** Căng thẳng thương mại Mỹ-EU-Trung Quốc (Article 494), chính sách thuế của Mỹ (Articles 137, 523, 535), việc Mỹ rút khỏi JETP (Article 206) tạo ra bất ổn.
+5.  **Tâm lý thị trường thận trọng:** Nhiều bài báo gần đây ghi nhận VN-Index điều chỉnh, rung lắc và tâm lý nhà đầu tư thận trọng hơn sau chuỗi tăng dài (Articles 200, 366, 389, 424, 444, 471, 501, 532, 600).
+
+Mặc dù có những điểm sáng cho từng cổ phiếu (VHM, MWG được khối ngoại mua ròng gần đây, VCB, SSI có tin tốt), áp lực bán ròng cực mạnh từ khối ngoại kết hợp với các rủi ro vĩ mô và tâm lý thận trọng bao trùm có thể dẫn đến một phiên giảm giá mạnh (""sập giá"") cho toàn danh mục trong ngày tiếp theo."
+2025-04-01T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Dựa trên đồ thị tri thức được cung cấp, có nhiều yếu tố tiêu cực mạnh mẽ xuất hiện gần đây, đặc biệt là vào cuối tháng 3 năm 2025, cho thấy khả năng cao danh mục cổ phiếu sẽ ""sập giá"" vào ngày tiếp theo (2025-04-01). Các lý do chính bao gồm:
+
+1.  **Áp lực bán ròng mạnh từ khối ngoại:** Nhiều báo cáo gần đây (Article_641, Article_600, Article_568, Article_424, Article_391) liên tục ghi nhận việc khối ngoại bán ròng với khối lượng lớn, lên tới hàng nghìn tỷ đồng mỗi phiên, bao gồm cả việc bán các cổ phiếu bluechip. Đây là một tín hiệu rất tiêu cực cho thị trường chung và các cổ phiếu vốn hóa lớn trong danh mục. Đặc biệt, FPT (Article_390, Article_621, Article_418) và VNM (liên quan đến MSN, Article_568), PNJ (liên quan đến bán lẻ MWG, Article_568) bị bán mạnh. Mặc dù có một số phiên mua ròng VHM (Article_391) hay MWG (Article_223), xu hướng bán ròng tổng thể là rất mạnh và đáng lo ngại.
+2.  **Thị trường chung điều chỉnh và tâm lý thận trọng:** VN-Index đã có nhiều phiên giảm điểm liên tiếp (Article_641, Article_600), điều chỉnh sau chuỗi tăng dài. Tâm lý nhà đầu tư được mô tả là thận trọng (Article_600, Article_444). Điều này thường dẫn đến việc bán tháo khi có các tín hiệu xấu tiếp theo, đặc biệt khi Mỹ sắp công bố chính sách thuế quan mới vào ngày 02/4 tới (Article_523, Article_535).
+3.  **Rủi ro hệ thống và ngành:**
+    *   **Ngân hàng (VCB, SSI liên quan):** Đối mặt với nợ xấu gia tăng (Article_300, Article_383, Article_433), áp lực trái phiếu doanh nghiệp (TPDN) đáo hạn (Article_433), và các vụ việc tiêu cực (Vạn Thịnh Phát - SCB Article_525, Lã Quang Bình Article_301) làm giảm niềm tin. Khối ngoại bán ròng cổ phiếu ngân hàng (Article_501, Article_600, Article_641). Mặc dù có tin tốt về tăng vốn, giảm lãi suất (Article_542, Article_526, Article_337), các rủi ro ngắn hạn đang lớn hơn.
+    *   **Bất động sản (VHM):** Áp lực đáo hạn TPDN rất lớn (Article_629, Article_585). Thị trường phục hồi không chắc chắn (Article_623). Vụ việc Phúc Sơn (Article_401) ảnh hưởng tiêu cực đến tâm lý ngành. Mặc dù VIC, VHM có phiên tăng mạnh (Article_508, Article_275), rủi ro chung của ngành và áp lực bán TPDN là đáng kể.
+    *   **Chứng khoán (SSI):** Hoạt động tự doanh và thanh khoản thị trường bị ảnh hưởng tiêu cực bởi đà giảm của VN-Index và việc bán ròng của khối ngoại (Article_630, Article_641). Kỳ vọng nâng hạng và KRX là dài hạn, không đủ bù đắp áp lực ngắn hạn.
+    *   **Công nghệ (FPT):** Bị khối ngoại bán ròng mạnh (Article_390, Article_418, Article_621), dù có phiên mua lại (Article_558, Article_499), nhưng xu hướng bán ròng chung của khối ngoại trên thị trường là yếu tố chi phối.
+    *   **Thép (HPG):** Dù giá thép có lúc tăng (Article_565) và được ETF mua (Article_319), nhưng ngành thép vẫn nhạy cảm với biến động kinh tế và áp lực bán chung của thị trường.
+4.  **Các yếu tố vĩ mô tiêu cực:**
+    *   Tỷ giá USD/VND có xu hướng tăng (Article_425, Article_517, Article_503), gây áp lực lên lạm phát và dòng vốn.
+    *   Lạm phát có dấu hiệu tăng (Article_185) và giá vàng liên tục lập kỷ lục (Article_642, Article_598, Article_416, Article_284) cho thấy tâm lý tìm đến tài sản trú ẩn, tiêu cực cho chứng khoán.
+    *   Thị trường TPDN có dấu hiệu bất ổn (Article_184, Article_205, Article_245) dù tháng 3 có bùng nổ phát hành (Article_572), nhưng áp lực đáo hạn lớn (Article_585).
+
+Mặc dù có các yếu tố tích cực như mục tiêu tăng trưởng GDP cao, thúc đẩy đầu tư công, hạ lãi suất, nhưng các tín hiệu tiêu cực ngắn hạn, đặc biệt là dòng vốn ngoại rút mạnh và tâm lý thị trường xấu đi, đang chiếm ưu thế và có khả năng gây ra một đợt bán tháo trên diện rộng, ảnh hưởng đến toàn bộ danh mục."
+2025-04-02T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Mặc dù có nhiều thông tin tích cực dài hạn như kỳ vọng nâng hạng thị trường (KRX, FTSE - ví dụ: Article_55, 221, 237, 283, 319, 321, 339, 362, 408, 432, 451, 471, 514, 516, 559, 620) và thanh khoản nội địa cao (ví dụ: Article_117, 139, 193, 321), các tín hiệu ngắn hạn gần đây trong đồ thị tri thức cho thấy rủi ro cao hơn cho ngày giao dịch tiếp theo (2025-04-02).
+
+Yếu tố tiêu cực chính là việc khối ngoại liên tục bán ròng mạnh mẽ trong giai đoạn cuối tháng 3 và đầu tháng 4 (ví dụ: Article_366, 391, 417, 418, 424, 501, 568, 600, 641, 658, 663), ảnh hưởng trực tiếp đến các cổ phiếu trong danh mục như FPT (Article_390, 621), MSN (Article_663), VNM (Article_568), PNJ (Article_568) và gián tiếp qua việc bán ròng chung trên thị trường. Mặc dù có lực mua ròng vào VHM (Article_391, 227), lực bán chung của khối ngoại rất mạnh.
+
+VN-Index cũng cho thấy dấu hiệu điều chỉnh sau chuỗi tăng dài (Article_366, 424, 444, 471, 600, 641). Các thông tin tiêu cực khác bao gồm áp lực đáo hạn trái phiếu doanh nghiệp (Article_585, 629), lo ngại về nợ xấu ngân hàng (Article_383, 433), và tác động từ căng thẳng thương mại toàn cầu (Article_494).
+
+Mặc dù có tin tốt riêng lẻ cho VCB (Article_423, 528, 648), MWG (Article_498, 529), SSI (Article_557), VHM (Article_508), VIC (Article_508, 660) và kỳ vọng vào KQKD quý 1 (Article_646), áp lực bán ròng mạnh từ khối ngoại và dấu hiệu điều chỉnh chung của thị trường tạo ra rủi ro giảm giá đáng kể cho danh mục trong ngày tiếp theo, dựa trên thông tin được cung cấp trong đồ thị tri thức."
+2025-04-03T01:00:00+07:00,Yes,"Crash: Yes
+Explanation: Dựa trên các sự kiện gần đây nhất trong đồ thị tri thức (cuối tháng 3 và đầu tháng 4 năm 2025), có nhiều dấu hiệu cho thấy khả năng cao danh mục cổ phiếu sẽ ""sập giá"" (giảm mạnh) trong ngày tiếp theo:
+
+1.  **Áp lực bán ròng cực mạnh và liên tục từ khối ngoại:** Đây là yếu tố rủi ro lớn nhất và bao trùm thị trường. Nhiều bài báo ghi nhận khối ngoại bán ròng với giá trị rất lớn (1 tỷ USD quý 1 - Art. 658; 1.500 tỷ ngày 19/3 - Art. 391; 1.400 tỷ cuối tháng 3 - Art. 641; gần 500 tỷ ngày 1/4 - Art. 663; 1.500 tỷ ngày 20/3 - Art. 417; 2.278 tỷ ngày 29/3 - Art. 600). Việc bán ròng diễn ra trên diện rộng, ảnh hưởng trực tiếp đến các cổ phiếu lớn trong danh mục như FPT (Art. 390, 418, 621), HPG (Art. 319), MSN (Art. 663), VNM (Art. 568), PNJ (Art. 568), VIC/VHM (Art. 319), SHB (Art. 319), TPB (Art. 417). Áp lực bán mạnh này có thể tiếp diễn và gây giảm giá hàng loạt.
+2.  **Thông tin tiêu cực cụ thể đến cổ phiếu trong danh mục:**
+    *   FPT: Bị khối ngoại bán ròng mạnh, giá giảm về vùng đáy cũ (Article_390, Article_418), bị các quỹ lớn hạ tỷ trọng (Article_418), kéo lùi chỉ số kim cương (Article_621).
+    *   MSN: Bị khối ngoại xả mạnh phiên 1/4 (Article_663).
+    *   HPG: Bị bán ròng mạnh bởi khối ngoại (Article_51, Article_40). Mặc dù có lực mua từ ETF (Article_319), áp lực bán chung vẫn lớn.
+    *   VHM: Mặc dù có những phiên được mua ròng mạnh (Article_227, Article_391), nhưng cũng nằm trong nhóm bị ETF bán ra (Article_319) và chịu áp lực chung từ khối ngoại.
+3.  **Thị trường chung có dấu hiệu điều chỉnh:** Sau một giai đoạn tăng dài, VN-Index đã có những phiên điều chỉnh giảm (Art. 366, 444, 600, 641, 471), cho thấy tâm lý thận trọng gia tăng (Art. 366, 444, 600). Mặc dù có những phiên hồi phục, áp lực bán vẫn còn lớn.
+4.  **Rủi ro từ thị trường trái phiếu doanh nghiệp (TPDN):** Nhiều thông tin cho thấy thị trường TPDN trầm lắng (Art. 184, 205, 245) và áp lực đáo hạn lớn trong Quý 2/2025 (40.600 tỷ - Art. 585), điều này tạo rủi ro cho ngành tài chính (SSI, VCB) và bất động sản (VHM).
+5.  **Lo ngại về lạm phát và tỷ giá:** Giá vàng liên tục lập kỷ lục (Art. 284, 314, 376, 416, 428, 502, 565, 598, 642, 655) thường cho thấy tâm lý phòng thủ, e ngại rủi ro trên thị trường chứng khoán. Tỷ giá USD/VND có xu hướng tăng (Art. 52, 65, 191, 503, 517, 617, 648) gây áp lực lên kinh tế vĩ mô. Giá dầu cũng có xu hướng tăng gần đây (Art. 618, 659). CPI tháng 2 tăng (Art. 185).
+6.  **Rủi ro hệ thống ngân hàng:** Mặc dù có nhiều tin tốt về giảm lãi suất và tăng trưởng tín dụng, nhưng vẫn còn lo ngại về nợ xấu gia tăng (Art. 300, 383, 433), các vụ việc lừa đảo (Art. 64, 265, 312, 377, 470) và tái cấu trúc ngân hàng yếu kém (Art. 26, 216). Vụ án Vạn Thịnh Phát - SCB (Art. 525) cũng ảnh hưởng tiêu cực đến niềm tin."
+2025-04-04T01:00:00+07:00,Yes,"```
+Crash: Yes
+Explanation: Lý do chính cho dự đoán ""sập giá"" là các sự kiện cực kỳ tiêu cực diễn ra vào ngày തൊട്ടുമുമ്പുള്ള (2025-04-03) được ghi nhận trong đồ thị tri thức. Cụ thể:
+1.  **Sụt giảm kỷ lục của thị trường:** VN-Index ghi nhận mức giảm mạnh nhất lịch sử (Article_696, Article_701), cho thấy tâm lý thị trường cực kỳ bi quan và hoảng loạn. Điều này có khả năng tiếp diễn trong phiên giao dịch tiếp theo.
+2.  **Khối ngoại bán ròng kỷ lục:** Nhà đầu tư nước ngoài bán ròng với giá trị kỷ lục (hơn 3.700 tỷ đồng theo Article_696), rút đi nguồn vốn hỗ trợ quan trọng và tạo áp lực bán tháo lớn lên thị trường chung và các cổ phiếu bluechip trong danh mục. Xu hướng bán ròng mạnh và liên tục của khối ngoại (Article_641, Article_600, Article_568, Article_501, Article_424, Article_418, Article_417, Article_391, Article_390) là một tín hiệu rất xấu.
+3.  **Tác động tiêu cực từ quốc tế:** Thông tin về thuế của Mỹ đã gây ra cú sốc và khiến thị trường toàn cầu và Việt Nam lao dốc (Article_701). Căng thẳng thương mại Mỹ-EU-Trung Quốc cũng được đề cập là yếu tố tiêu cực (Article_494).
+4.  **Áp lực lên cổ phiếu cụ thể trong danh mục:**
+    *   FPT bị khối ngoại bán ròng mạnh liên tục (Article_390, Article_418, Article_621).
+    *   Nhiều cổ phiếu bluechip (bao gồm cả ngân hàng, bất động sản) bị bán mạnh trong các phiên gần đây (Article_223, Article_696, Article_641). Mặc dù VHM được mua ròng trong một số phiên gần đây (Article_391), nhưng áp lực bán chung lên thị trường và khối ngoại bán ròng kỷ lục có thể lấn át lực mua này.
+5.  **Tâm lý thị trường:** Nhiều bài báo trước đó đã ghi nhận tâm lý thận trọng (Article_444, Article_600), và cú sập kỷ lục ngày 03/04 chắc chắn càng làm gia tăng sự sợ hãi và có thể kích hoạt làn sóng bán tháo tiếp theo từ nhà đầu tư trong nước.
+6.  **Rủi ro hệ thống:** Các vấn đề như áp lực đáo hạn trái phiếu doanh nghiệp (Article_585), nợ xấu ngân hàng tiềm ẩn (Article_300, Article_383, Article_433), và các vụ việc tiêu cực liên quan đến ngân hàng/doanh nghiệp lớn (Article_525, Article_401) tạo ra rủi ro tiềm ẩn cho hệ thống tài chính và thị trường chứng khoán.
+
+Mặc dù có những yếu tố tích cực tiềm năng như kỳ vọng nâng hạng thị trường, hệ thống KRX sắp vận hành, và lãi suất giảm, nhưng dựa trên thông tin mới nhất và cực kỳ tiêu cực từ đồ thị tri thức, đặc biệt là cú sốc mạnh ngày 03/04, khả năng thị trường tiếp tục giảm sâu hoặc ""sập giá"" trong ngày tiếp theo (04/04/2025) là cao.
+```"
+2025-04-07T01:00:00+07:00,Yes,"```
+Crash: Yes
+Explanation: Mặc dù có nhiều thông tin tích cực dài hạn như kỳ vọng nâng hạng thị trường (Articles 55, 221, 237, 260, 283, 321, 408, 451, 514, 559, 620), mục tiêu tăng trưởng GDP cao (Articles 42, 80, 116, 310, 484, 524, 757), và dòng vốn FDI tích cực (Articles 23, 309, 135, 712), các yếu tố tiêu cực ngắn hạn gần đây có vẻ chiếm ưu thế và có khả năng tác động mạnh đến danh mục trong ngày tiếp theo (2025-04-07).
+
+1.  **Áp lực bán ròng kỷ lục từ khối ngoại:** Nhiều báo cáo gần đây (đặc biệt là cuối tháng 3 và đầu tháng 4) cho thấy khối ngoại bán ròng rất mạnh, lên đến hàng nghìn tỷ đồng mỗi phiên, tập trung vào các cổ phiếu bluechips (Articles 51, 77, 117, 129, 160, 223, 260, 302, 390, 391, 417, 424, 501, 600, 641, 658, 663, 696, 716). Danh mục này chứa nhiều cổ phiếu lớn (FPT, SSI, VCB, VHM, HPG, MSN, MWG) vốn là đối tượng bán ròng chính (Articles 51, 40, 223, 319, 390, 391, 568, 621, 663). Đặc biệt, FPT bị bán ròng mạnh (Articles 390, 621) và PNJ, VNM (cùng ngành Tiêu dùng với MSN) cũng bị bán mạnh (Article 568).
+2.  **Biến động mạnh và điều chỉnh của thị trường:** VN-Index đã trải qua những phiên giảm điểm mạnh và rung lắc dữ dội gần đây (Articles 444, 600, 641, 696, 701, 716), bao gồm cả phiên giảm mạnh nhất lịch sử (Article 696) do tác động từ tin tức thuế quan của Mỹ (Articles 701, 716, 760). Mặc dù có sự hồi phục nhất định, tâm lý thị trường vẫn còn thận trọng (Articles 366, 444, 600).
+3.  **Rủi ro từ thị trường tài chính và ngân hàng:** Thị trường trái phiếu doanh nghiệp vẫn tiềm ẩn rủi ro đáo hạn lớn (Articles 585, 313) dù có cải thiện trong tháng 3 (Article 572). Nợ xấu ngân hàng có nguy cơ tăng (Articles 300, 383, 433). Các vụ việc liên quan đến ngân hàng (Vạn Thịnh Phát - SCB, Lã Quang Bình) gây ảnh hưởng tiêu cực (Articles 525, 714, 301). Cảnh báo lừa đảo tài chính gia tăng (Articles 64, 377, 744).
+4.  **Áp lực tỷ giá và lạm phát:** Tỷ giá USD/VND liên tục tăng và lập đỉnh mới (Articles 52, 65, 191, 425, 503, 517, 703), gây áp lực lên lạm phát (Articles 52, 185, 262, 284, 350, 361, 416, 428, 502, 517, 575, 582, 598, 618, 619, 642, 659, 703, 721) và có thể ảnh hưởng tiêu cực đến chi tiêu tiêu dùng (ảnh hưởng MSN, MWG) và chi phí doanh nghiệp.
+5.  **Tác động tiêu cực từ chính sách thuế Mỹ:** Thông tin về thuế quan của Mỹ đã gây ra những cú sốc mạnh cho thị trường chứng khoán toàn cầu và Việt Nam (Articles 701, 716, 760), ảnh hưởng trực tiếp đến tâm lý nhà đầu tư và dòng vốn ngoại. Mặc dù Việt Nam đang tìm cách ứng phó (Articles 699, 761), sự không chắc chắn vẫn còn.
+
+Những yếu tố tiêu cực mạnh và gần đây này, đặc biệt là áp lực bán ròng kỷ lục của khối ngoại và sự điều chỉnh mạnh của thị trường, có khả năng tiếp tục ảnh hưởng đến giá của các cổ phiếu lớn trong danh mục vào ngày giao dịch tiếp theo.
+```"
+2025-04-08T01:00:00+07:00,Yes,"Crash: Yes
+Explanation:
+1.  **Áp lực bán ròng kỷ lục từ khối ngoại:** Nhiều bài báo gần đây (Article_600, 641, 696, 701, 716, 738) liên tục nhấn mạnh việc khối ngoại bán ròng rất mạnh, lên đến hàng nghìn tỷ đồng mỗi phiên, đặc biệt sau thông tin về thuế quan của Mỹ. Đây là tín hiệu rất tiêu cực cho thị trường chung và các cổ phiếu bluechip trong danh mục. Article_658 còn tổng kết khối ngoại bán ròng 1 tỷ USD trong Quý I/2025.
+2.  **Tác động tiêu cực từ chính sách thuế Mỹ:** Việc Mỹ áp thuế quan (được đề cập trong Article_699, 701, 716, 760, 761, 780) đã gây ra sự lao dốc kỷ lục trên thị trường chứng khoán Việt Nam và toàn cầu. Mặc dù có phiên hồi phục (Article_716), tâm lý lo ngại và bất ổn vẫn còn rất lớn, ảnh hưởng tiêu cực đến triển vọng ngắn hạn.
+3.  **VN-Index biến động mạnh và giảm sâu:** Thị trường đã trải qua những phiên giảm điểm mạnh (Article_696, 701), giảm 4 phiên liên tiếp (Article_641), điều chỉnh sau 8 tuần tăng (Article_444), cho thấy tâm lý thận trọng và áp lực chốt lời lớn. Mặc dù có kỳ vọng hồi phục (Article_389, 646), sự bán tháo mạnh gần đây tạo rủi ro giảm tiếp.
+4.  **Rủi ro vĩ mô tiềm ẩn:**
+    *   **Lạm phát:** Giá vàng liên tục lập kỷ lục (Article_284, 314, 376, 502, 598, 642), giá dầu tăng (Article_565, 618, 659), giá thịt heo tăng (Article_582) tạo áp lực lạm phát (Article_185, 350, 517, 618, 642, 703, 763).
+    *   **Tỷ giá:** Tỷ giá USD/VND liên tục tăng và lập đỉnh mới (Article_52, 65, 191, 503, 517, 703), gây bất lợi cho doanh nghiệp nhập khẩu và tiềm ẩn rủi ro vĩ mô.
+    *   **Trái phiếu doanh nghiệp:** Áp lực đáo hạn lớn trong Quý 2 (Article_585), thị trường TPDN tháng 2 trầm lắng (Article_184, 205, 245), dù tháng 3 có bùng nổ (Article_572) nhưng rủi ro vẫn còn (Article_433).
+    *   **Nợ xấu ngân hàng:** Có nguy cơ gia tăng (Article_300, 383, 433).
+    *   **Vụ án lớn:** Các vụ án liên quan Vạn Thịnh Phát, Phúc Sơn (Article_525, 401, 714) có thể ảnh hưởng tiêu cực đến tâm lý thị trường, đặc biệt nhóm ngân hàng và bất động sản.
+5.  **Tác động tiêu cực lên các cổ phiếu cụ thể:**
+    *   FPT, MSN, VNM, PNJ bị khối ngoại bán ròng mạnh (Article_51, 390, 418, 568, 621, 663).
+    *   Ngành ngân hàng và chứng khoán nói chung bị bán ròng (Article_223, 501, 600, 630, 641, 658).
+    *   Ngành thép đối mặt thuế chống bán phá giá từ Mỹ (Article_758).
+    *   FRT (cùng ngành bán lẻ với MWG) giảm về đáy (Article_706, 663).
+
+Mặc dù có những thông tin tích cực về tăng trưởng GDP Q1, FDI, kỳ vọng nâng hạng và KRX, các yếu tố tiêu cực ngắn hạn, đặc biệt là dòng vốn ngoại rút ra mạnh mẽ và cú sốc từ thuế quan Mỹ, cùng với các rủi ro vĩ mô tiềm ẩn, tạo ra áp lực rất lớn lên thị trường trong phiên giao dịch tiếp theo, dẫn đến dự đoán khả năng ""sập giá"" là có."
